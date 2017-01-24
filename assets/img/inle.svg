@@ -1,0 +1,7 @@
+<svg width="170" height="170" xmlns="http://www.w3.org/2000/svg" viewBox="-41 -5 170 170">
+  <polygon fill="black" stroke="black" points="45,160 8,110 25,88 0,45 20,0 39,88 51,88 70,0 90,45 65,88 82,110"/>
+  <g fill="white" stroke="white">
+    <polygon points="23,120 25,112 36,124"/>
+    <polygon points="67,120 65,112 54,124"/>
+  </g>
+</svg>

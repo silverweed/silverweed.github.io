@@ -8,11 +8,13 @@
 
   {% if author.avatar %}
     <div class="author__avatar">
+      <a href='/'>
       {% if author.avatar contains "://" %}
         <img src="{{ author.avatar }}" alt="{{ author.name }}" itemprop="image">
       {% else %}
         <img src="{{ author.avatar | absolute_url }}" class="author__avatar" alt="{{ author.name }}" itemprop="image">
       {% endif %}
+      </a>
     </div>
   {% endif %}
 
@@ -131,6 +133,14 @@
         </li>
       {% endif %}
 
+      {% if author.codeberg %}
+        <li>
+          <a href="https://codeberg.org/{{ author.codeberg }}" itemprop="sameAs">
+            <i class="fa fa-fw fa-code" aria-hidden="true"></i> Codeberg
+          </a>
+        </li>
+      {% endif %}
+
       {% if author.stackoverflow %}
         <li>
           <a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}" itemprop="sameAs">
@@ -233,6 +243,14 @@
             <i class="fa fa-fw fa-vine" aria-hidden="true"></i> Vine
           </a>
         </li>
+      {% endif %}
+
+      {% if author.about %}
+      <li>
+          <a href="{{ author.about }}" itemprop="sameAs">
+          <i class="fa fa-fw fa-question" aria-hidden="true"></i> About
+        </a>
+      </li>
       {% endif %}
 
       {% include author-profile-custom-links.html %}
