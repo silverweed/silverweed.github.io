@@ -36,3 +36,6 @@ incomplete to say the least.
 Lifish is currently my best effort at creating something worth playing, so it's what this blog will mostly focus on.
 
 More detailed stuff about it is coming: subscribe to the Feed to get updates as soon as they arrive!
+
+<small>(Footnote: "silverweed" has nothing to do with smoking weed: the name is from a character of my favourite book:
+Watership Down by R. Adams. It's funny, since I've never smoked in my life :-)</small>
