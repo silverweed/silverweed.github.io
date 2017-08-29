@@ -5,7 +5,8 @@ layout: single
 tags:
   - programming  
   - lifish  
-  - c++
+  - c++  
+  - videogames
 ---
 
 When writing a big piece of software, its architectural design is fundamental, and videogames are no different.
@@ -26,7 +27,7 @@ I'll try to convince you.
 ### Inheritance is BAD
 Inheritance is a core concept in all modern OOP languages; it's powerful, it enables code reuse,
 polymorphism, virtual methods and all other kinds of cool features you can think of.
-That's certainly true, but it has one problem that really clashes with videogame programming: it's very. rigid.
+That's certainly true, but it has one problem that really clashes with videogame programming: it's. very. rigid.
 Let me elaborate on this.
 
 You can think of a project as a collection of class hierarchies. In most OOP programming languages, these hierarchies
