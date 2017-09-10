@@ -78,6 +78,7 @@ analytics:
 # Site Author
 author:
   name             : "silverweed"
+  about            : "/about_this_blog_(and_its_author)/"
   avatar           : "/assets/img/inle.png"
   bio              : ""
   location         : "Italy"

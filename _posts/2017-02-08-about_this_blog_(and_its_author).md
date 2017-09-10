@@ -24,7 +24,7 @@ I will also post--somewhat regularly-- updates on the video game I've been worki
 So, if video games and/or programming is your thing, stay tuned for updates! ;-)
 
 ## About me
-I am a 25 year old guy from Italy who is currently studying Computer Science, with a special focus
+I am (as of 2017) a 25 year old guy from Italy who is currently studying Computer Science, with a special focus
 in video game programming.
 
 My first "serious attempt" at making a video game dates back around 2010, so I'm pretty newbie in the business;
