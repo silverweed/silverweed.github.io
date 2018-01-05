@@ -17,5 +17,17 @@ Release date for the game is still unknown, but you can track the development pr
 
 <hr>
 
-<p style='font-family: "Bitwise",monospace'>ERROR: ART NOT LOADED YET. CANNOT DISPLAY SCREENSHOTS.</p>
+## Gallery (art not final!) ##
+<figure>
+  <a href='/assets/img/lifish_screen1.png'>
+    <img src='/assets/img/lifish_screen1.png' alt='Lifish level1 programmer art'/>
+  </a>
+  <figcaption>The (current) first level of the game with its beautiful "programmer art"</figcaption>
+</figure>
 
+<figure>
+  <a href='/assets/img/lifish_screen2.png'>
+    <img src='/assets/img/lifish_screen2.png' alt='Playtesting rex boss'/>
+  </a>
+  <figcaption>Playtesting a big bad boss</figcaption>
+</figure>
