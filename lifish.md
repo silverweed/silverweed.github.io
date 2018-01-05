@@ -27,7 +27,7 @@ Release date for the game is still unknown, but you can track the development pr
 
 <figure>
   <a href='/assets/video/rex_atk.webm'>
-    <video src='/assets/video/rex_atk.webm' alt='Playtesting rex boss' loop muted preload autoplay>
+    <video style='width: 100%' src='/assets/video/rex_atk.webm' alt='Playtesting rex boss' loop muted preload autoplay>
       Your browser does not support HTML5.
     </video>
   </a>
