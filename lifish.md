@@ -26,8 +26,10 @@ Release date for the game is still unknown, but you can track the development pr
 </figure>
 
 <figure>
-  <a href='/assets/img/lifish_screen2.png'>
-    <img src='/assets/img/lifish_screen2.png' alt='Playtesting rex boss'/>
+  <a href='/assets/video/rex_atk.webm'>
+    <video src='/assets/video/rex_atk.webm' alt='Playtesting rex boss' loop muted preload autoplay>
+      Your browser does not support HTML5.
+    </video>
   </a>
   <figcaption>Playtesting a big bad boss</figcaption>
 </figure>
