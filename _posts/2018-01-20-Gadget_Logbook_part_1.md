@@ -38,7 +38,7 @@ GLES (but I believe it would be quite similar to 3.3 core).
 I'm using SFML as the windowing library (as opposed to the more commonly used GLEW) because I'm already very familiar
 with it, as it's the main library I use in [Lifish](/lifish). The D bindings are again provided by [DerelictSFML](http://derelictorg.github.io/packages/sfml2/).
 Unfortunately, they are actually bindings to the CSFML API, so they're totally C-style and non-object oriented 
-(so you write `auto t = sfClock_getElapsedTime(clock);` instead of `auto t = clock.getElapsedTime();`, but
+(so you write `auto t = sfClock_getElapsedTime(clock);` instead of `auto t = clock.getElapsedTime();`), but
 that's not necessarily a bad thing. It keeps things simple and doesn't add uncalled-for abstractions I don't need.
 Moreover, SFML is used quite little in Gadget, so the resulting C++-bound-to-C-looking code does not bloat the codebase
 excessively.
