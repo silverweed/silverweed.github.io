@@ -8,3 +8,5 @@ main:
      url: /lifish/
    - title: "Games"
      url: /games/
+   - title: "Portfolio"
+     url: /portfolio/
