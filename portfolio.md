@@ -85,7 +85,7 @@ div.gamedesc {
         <a href='/assets/img/lifish_screen1.png'><img src="/assets/img/lifish_screen1.png" alt="Lifish"/></a>
         <a href='/assets/video/rex_atk.webm'>
           <img class="thumb" src="/assets/video/rex_atk_thumb.png" alt="Lifish"/>
-          <video src="/assets/video/rex_atk.mp4" alt="Lifish"></video>
+          <video src="/assets/video/rex_atk.webm" alt="Lifish"></video>
         </a>
         <a href='/assets/img/lifish_lv11.png'><img src="/assets/img/lifish_lv11.png" alt="Lifish"/></a>
         <a href='/assets/img/lifish_lv30.png'><img src="/assets/img/lifish_lv30.png" alt="Lifish"/></a>
