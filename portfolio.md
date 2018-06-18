@@ -7,11 +7,14 @@ permalink: /portfolio/
 <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"> 
 <style>
 li {
-	margin-bottom: 1px !important;
+	margin-bottom: 0px !important;
 }
 div.game {
 	display: flex;
-  flex-direction: row;
+  flex-direction: column;
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
 }
 div.gamedesc {
 	padding: 10px;
@@ -24,15 +27,15 @@ div.gamedesc {
 .game-imgs {
   display: flex;
   flex-wrap: wrap;
-  max-width: 40%;
 }
 .game-imgs a {
   position: relative;
+  max-width: 45%;
+  max-width: 400px;
 }
 .game-imgs img, video {
-  width: 300px;
   height: auto;
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 .game-imgs img.play {
@@ -42,18 +45,11 @@ div.gamedesc {
   left: 30%;
   top: 16%;
 }
-.right {
-  justify-content: flex-end;
-}
-.right .game-imgs {
-  justify-content: flex-end;
-}
 .gamedesc p {
   margin: 0.1em !important;
-  font-size: 90%;
 }
 .gamedesc h1 {
-  margin-top: 0.3em;
+  margin-top: 1em;
   font-family: 'Josefin Sans', sans-serif;
 }
 .gamedesc h2, h3, h4, h5, h6 {
@@ -66,14 +62,6 @@ div.gamedesc {
 <ul class='gamelist'>
   <li style='background: rgba(210, 210, 210, 1.0)'>
     <div class='game'>
-      <div class='game-imgs'>
-        <a href='/assets/img/lifish_screen1.png'><img src="/assets/img/lifish_screen1.png" alt="Lifish"/></a>
-        <a href='/assets/video/rex_atk.webm'>
-          <video src="/assets/video/rex_atk.webm" alt="Lifish" muted></video>
-        </a>
-        <a href='/assets/img/lifish_lv11.png'><img src="/assets/img/lifish_lv11.png" alt="Lifish"/></a>
-        <a href='/assets/img/lifish_lv30.png'><img src="/assets/img/lifish_lv30.png" alt="Lifish"/></a>
-      </div>
       <div class='gamedesc'>
         <h1>Lifish</h1>
         <h3>Roles: programmer, designer</h3>
@@ -90,10 +78,18 @@ div.gamedesc {
         <p>Lifish is still under development, mainly on the graphical side, as the current "programmer art"
         is going to be replaced by the final version (which is being made by another person).</p>
       </div>
+      <div class='game-imgs'>
+        <a href='/assets/img/lifish_screen1.png'><img src="/assets/img/lifish_screen1.png" alt="Lifish"/></a>
+        <a href='/assets/video/rex_atk.mp4'>
+          <video src="/assets/video/rex_atk.mp4" alt="Lifish"></video>
+        </a>
+        <a href='/assets/img/lifish_lv11.png'><img src="/assets/img/lifish_lv11.png" alt="Lifish"/></a>
+        <a href='/assets/img/lifish_lv30.png'><img src="/assets/img/lifish_lv30.png" alt="Lifish"/></a>
+      </div>
     </div>
   </li>
   <li style='background: rgba(220, 220, 220, 1.0)'>
-    <div class='game right'>
+    <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
         <h1>Gadget</h1>
         <h3>Roles: programmer</h3>
@@ -124,6 +120,20 @@ div.gamedesc {
   </li>
   <li style='background: rgba(210, 210, 210, 1.0)'>
     <div class='game'>
+      <div class='gamedesc' style='align-self: flex-start'>
+        <h1>GIVE - I Guardiani Del Corpo</h1>
+        <h3>Roles: programming, materials, levels, some 3D models and animations</h3>
+        <p>GIVE was my first commissioned game and also my first one made with Unreal Engine.</p>
+        <p>The final product is the result of one year of work from a team of 2 people. My main role
+        in the team was gameplay programming, but I also contributed some 3D models, animations
+        and most materials.</p>
+        <p>GIVE is a sidescrolling shoot-em-up where you control white blood cells with the
+        goal to safely escort the erythrocytes inside a blood vessel, defending them from bacteria.
+        The game uses most of the classic mechanics of the genre, plus some extra elements such as "blood transfusion".</p>
+        <p>The game features local multiplayer up to 4 people, allowing joining in mid-game in a perfect
+        arcade fashion. There are 4 playable characters, each with its own basic attack and "bomb",
+        3 levels, each with its unique boss, and a bunch of enemies with different patterns.</p>
+      </div>
       <div class='game-imgs'>
         <a href='/assets/img/give/give_gameplay1.png'>
           <img src="/assets/img/give/give_gameplay1.png" alt="GIVE"/>
@@ -144,26 +154,16 @@ div.gamedesc {
           <video src="/assets/video/give/tiny_small.webm" alt="GIVE"/>
         </a>
       </div>
-      <div class='gamedesc' style='align-self: flex-start'>
-        <h1>GIVE - I Guardiani Del Corpo</h1>
-        <h3>Roles: programming, materials, levels, some 3D models and animations</h3>
-        <p>GIVE was my first commissioned game and also my first one made with Unreal Engine.</p>
-        <p>The final product is the result of one year of work from a team of 2 people. My main role
-        in the team was gameplay programming, but I also contributed some 3D models, animations
-        and most materials.</p>
-        <p>GIVE is a sidescrolling shoot-em-up where you control white blood cells with the
-        goal to safely escort the erythrocytes inside a blood vessel, defending them from bacteria.
-        The game uses most of the classic mechanics of the genre, plus some extra elements such as "blood transfusion".</p>
-        <p>The game features local multiplayer up to 4 people, allowing joining in mid-game in a perfect
-        arcade fashion. There are 4 playable characters, each with its own basic attack and "bomb",
-        3 levels, each with its unique boss, and a bunch of enemies with different patterns.</p>
-      </div>
     </div>
   </li>
 </ul>
 
 <script>
 document.querySelectorAll('video').forEach(video => {
+  
+  video.muted = true;
+  video.loop = true;
+
   // Add play symbol
   var play = document.createElement('img');
   play.src='/assets/img/play.svg';
