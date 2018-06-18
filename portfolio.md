@@ -57,6 +57,9 @@ div.gamedesc {
   margin-bottom: 0.1em;
   font-family: 'Josefin Sans', sans-serif;
 }
+.game-imgs video {
+	display: none;
+}
 </style>
 
 <ul class='gamelist'>
@@ -80,7 +83,8 @@ div.gamedesc {
       </div>
       <div class='game-imgs'>
         <a href='/assets/img/lifish_screen1.png'><img src="/assets/img/lifish_screen1.png" alt="Lifish"/></a>
-        <a href='/assets/video/rex_atk.mp4'>
+        <a href='/assets/video/rex_atk.webm'>
+          <img class="thumb" src="/assets/video/rex_atk_thumb.png" alt="Lifish"/>
           <video src="/assets/video/rex_atk.mp4" alt="Lifish"></video>
         </a>
         <a href='/assets/img/lifish_lv11.png'><img src="/assets/img/lifish_lv11.png" alt="Lifish"/></a>
@@ -107,10 +111,12 @@ div.gamedesc {
           <img src="/assets/img/gadget/cubes.png" alt="Gadget"/>
         </a>
         <a href='/assets/video/gadget/multiplelights.webm'>
-          <video src="/assets/video/gadget/multiplelights_small.webm" alt="Gadget"/>
+          <img class="thumb" src="/assets/video/gadget/multiplelights_thumb.png" alt="Gadget"/>
+          <video src="/assets/video/gadget/multiplelights_small.webm" alt="Gadget"></video>
         </a>
         <a href='/assets/video/gadget/shadows.webm'>
-          <video src="/assets/video/gadget/shadows_small.webm" alt="Gadget"/>
+          <img class="thumb" src="/assets/video/gadget/shadows_thumb.png" alt="Gadget"/>
+          <video src="/assets/video/gadget/shadows_small.webm" alt="Gadget"></video>
         </a>
         <a href='/assets/img/gadget/gadget_screen1.png'>
           <img src="/assets/img/gadget/gadget_screen1.png" alt="Gadget"/>
@@ -138,8 +144,9 @@ div.gamedesc {
         <a href='/assets/img/give/give_gameplay1.png'>
           <img src="/assets/img/give/give_gameplay1.png" alt="GIVE"/>
         </a>
-        <a href='/assets/video/give/buddy_boss_lv1.mp4'>
-          <video src="/assets/video/give/buddy_boss_small.webm" alt="GIVE"/>
+        <a href='/assets/video/gives/buddy_boss_lv1.mp4'>
+          <img class="thumb" src="/assets/video/give/buddy_boss_lv1_thumb.png" alt="Gadget"/>
+          <video src="/assets/video/give/buddy_boss_small.webm" alt="GIVE"></video>
         </a>
         <a href='/assets/img/give/boss_lv3.png'>
           <img src="/assets/img/give/boss_lv3.png" alt="GIVE"/>
@@ -151,7 +158,8 @@ div.gamedesc {
           <img src="/assets/img/give/give_selection.png" alt="GIVE"/>
         </a>
         <a href='/assets/video/give/tiny.mp4'>
-          <video src="/assets/video/give/tiny_small.webm" alt="GIVE"/>
+          <img class="thumb" src="/assets/video/give/tiny_thumb.png" alt="Gadget"/>
+          <video src="/assets/video/give/tiny_small.webm" alt="GIVE"></video>
         </a>
       </div>
     </div>
@@ -159,30 +167,48 @@ div.gamedesc {
 </ul>
 
 <script>
-document.querySelectorAll('video').forEach(video => {
-  
-  video.muted = true;
-  video.loop = true;
+var isMobile = /(Android|webOS|iPhone|iPad|iPod|BlackBerry|Windows Phone)/i.test(navigator.userAgent);
 
-  // Add play symbol
-  var play = document.createElement('img');
-  play.src='/assets/img/play.svg';
-  play.className = 'play';
-  var bound = video.getBoundingClientRect();
-  video.parentNode.appendChild(play);
+function addPlaySymbol(elem) {
+	  var play = document.createElement('img');
+	  play.src='/assets/img/play.svg';
+	  play.className = 'play';
+	  var bound = elem.getBoundingClientRect();
+	  elem.parentNode.appendChild(play);
+	  return play;
+}
 
-  // Hover play/pause
-  play.addEventListener('mouseenter', ((video, play) => {
-    return () => {
-      video.play();
-      play.style.visibility = 'hidden';
-    };
-  })(video, play));
-  video.addEventListener('mouseleave', ((video, play) => {
-    return () => {
-      video.pause();
-      play.style.visibility = 'visible';
-    };
-  })(video, play));
-});
+if (!isMobile) {
+	document.querySelectorAll('video').forEach(video => {
+
+	  var thumb = video.parentNode.querySelector('img.thumb');
+	  thumb.style.display = 'none';
+	  video.style.display = "block";
+
+	  video.muted = true;
+	  video.loop = true;
+
+	  // Add play symbol
+	  var play = addPlaySymbol(video);
+
+	  // Hover play/pause
+	  play.addEventListener('mouseenter', ((video, play) => {
+	    return () => {
+	      video.play();
+	      play.style.visibility = 'hidden';
+	    };
+	  })(video, play));
+	  video.addEventListener('mouseleave', ((video, play) => {
+	    return () => {
+	      video.pause();
+	      play.style.visibility = 'visible';
+	    };
+	  })(video, play));
+	});
+} else {
+	// is mobile
+	document.querySelectorAll('.thumb').forEach(img => {
+		addPlaySymbol(img);
+	});
+}
 </script>
