@@ -4,12 +4,10 @@ title: silverweed's portfolio
 permalink: /portfolio/
 ---
 
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"> 
 <style>
 li {
 	margin-bottom: 1px !important;
-}
-h2 {
-	margin-top: 0;
 }
 div.game {
 	display: flex;
@@ -41,11 +39,27 @@ div.gamedesc {
   width: 50%;
   position: absolute;
   opacity: 0.8;
-  left: 35%;
+  left: 30%;
   top: 16%;
 }
 .right {
   justify-content: flex-end;
+}
+.right .game-imgs {
+  justify-content: flex-end;
+}
+.gamedesc p {
+  margin: 0.1em !important;
+  font-size: 90%;
+}
+.gamedesc h1 {
+  margin-top: 0.3em;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.gamedesc h2, h3, h4, h5, h6 {
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  font-family: 'Josefin Sans', sans-serif;
 }
 </style>
 
@@ -57,28 +71,92 @@ div.gamedesc {
         <a href='/assets/video/rex_atk.webm'>
           <video src="/assets/video/rex_atk.webm" alt="Lifish" muted></video>
         </a>
-        <a href='/assets/img/lifish_screen1.png'><img src="/assets/img/lifish_screen1.png" alt="Lifish"/></a>
-        <a href='/assets/img/lifish_screen1.png'><img src="/assets/img/lifish_screen1.png" alt="Lifish"/></a>
+        <a href='/assets/img/lifish_lv11.png'><img src="/assets/img/lifish_lv11.png" alt="Lifish"/></a>
+        <a href='/assets/img/lifish_lv30.png'><img src="/assets/img/lifish_lv30.png" alt="Lifish"/></a>
       </div>
       <div class='gamedesc'>
         <h1>Lifish</h1>
-        <p>An old-style arcade game about bombing aliens. Currently under development.</p>
+        <h3>Roles: programmer, designer</h3>
+        <p>Lifish was born in 2015 as an open source clone of an old Mac game called <em>BOOM</em>, 
+        a "Bomberman meets Doom" arcade game. The source code is available
+        <a href="https://github.com/silverweed/lifish">on Github</a>.</p>
+        <p>The project later evolved into an original game, preserving most original BOOM mechanics 
+        while adding on bosses, enemies and powerups.</p>
+        <p>As a <strong>programmer</strong>, I basically wrote the entire thing. Lifish uses a custom C++
+        engine leveraging the <a href="https://www.sfml-dev.org/">SFML</a> multimedia library for
+        multi-platform deployment (the game runs on Linux, Mac, Windows and FreeBSD).</p>
+        <p>As a <strong>designer</strong>, I'm creating the new levels, bosses, enemies, attacks and
+        powerups that make Lifish more than just a clone of the original game.</p>
+        <p>Lifish is still under development, mainly on the graphical side, as the current "programmer art"
+        is going to be replaced by the final version (which is being made by another person).</p>
+      </div>
+    </div>
+  </li>
+  <li style='background: rgba(220, 220, 220, 1.0)'>
+    <div class='game right'>
+      <div class='gamedesc' style='align-self: flex-start'>
+        <h1>Gadget</h1>
+        <h3>Roles: programmer</h3>
+        <p>An ongoing "toy" rendering engine I'm doing in my free time as a way to get a solid grasp on OpenGL and graphics
+        programming. My plan is to also integrate it with a physics engine in the future.</p>
+        <p>Gadget is written in D and uses OpenGL + SFML for windowing. It's currently only being tested on Linux.</p>
+        <p>Its source code is available <a href="https://github.com/silverweed/gadget">on Github</a>.</p>
+        <p>Currently, after a couple of months of work, Gadget features: basic primitive drawing, instanced drawing,
+        texturing, diffuse/specular/normal maps, ambient/directional/point lights, Blinn-Phong shading, shadow mapping and skybox drawing.</p>
+        <p>Work on Gadget is currently on hiatus due to me working on a similar project for my Master thesis, 
+        but you can read a couple of articles about it <a href="http://localhost:4000/tags/#gadget">on my blog</a>.</p>
+      </div>
+      <div class='game-imgs'>
+        <a href='/assets/img/gadget/cubes.png'>
+          <img src="/assets/img/gadget/cubes.png" alt="Gadget"/>
+        </a>
+        <a href='/assets/video/gadget/multiplelights.webm'>
+          <video src="/assets/video/gadget/multiplelights_small.webm" alt="Gadget"/>
+        </a>
+        <a href='/assets/video/gadget/shadows.webm'>
+          <video src="/assets/video/gadget/shadows_small.webm" alt="Gadget"/>
+        </a>
+        <a href='/assets/img/gadget/gadget_screen1.png'>
+          <img src="/assets/img/gadget/gadget_screen1.png" alt="Gadget"/>
+        </a>
       </div>
     </div>
   </li>
   <li style='background: rgba(210, 210, 210, 1.0)'>
-    <div class='game right'>
-      <div class='gamedesc' style='align-self: flex-start'>
-        <h1>Lifish</h1>
-        <p>An old-style arcade game about bombing aliens. Currently under development.</p>
-      </div>
+    <div class='game'>
       <div class='game-imgs'>
-        <a href='/assets/img/lifish_screen1.png'><img src="/assets/img/lifish_screen1.png" alt="Lifish"/></a>
-        <a href='/assets/video/rex_atk.webm'>
-          <video src="/assets/video/rex_atk.webm" alt="Lifish" muted style="position:relative"></video>
+        <a href='/assets/img/give/give_gameplay1.png'>
+          <img src="/assets/img/give/give_gameplay1.png" alt="GIVE"/>
         </a>
-        <img src="/assets/img/lifish_screen1.png" alt="Lifish"/>
-        <img src="/assets/img/lifish_screen1.png" alt="Lifish"/>
+        <a href='/assets/video/give/buddy_boss_lv1.mp4'>
+          <video src="/assets/video/give/buddy_boss_small.webm" alt="GIVE"/>
+        </a>
+        <a href='/assets/img/give/boss_lv3.png'>
+          <img src="/assets/img/give/boss_lv3.png" alt="GIVE"/>
+        </a>
+        <a href='/assets/img/give/nuke_explosion.png'>
+          <img src="/assets/img/give/nuke_explosion.png" alt="GIVE"/>
+        </a>
+        <a href='/assets/img/give/give_selection.png'>
+          <img src="/assets/img/give/give_selection.png" alt="GIVE"/>
+        </a>
+        <a href='/assets/video/give/tiny.mp4'>
+          <video src="/assets/video/give/tiny_small.webm" alt="GIVE"/>
+        </a>
+      </div>
+      <div class='gamedesc' style='align-self: flex-start'>
+        <h1>GIVE - I Guardiani Del Corpo</h1>
+        <h3>Roles: programming, materials, levels, some 3D models and animations</h3>
+        <p>GIVE was my first commissioned game and also my first one made with Unreal Engine.</p>
+        <p>The final product is the result of one year of work from a team of 2 people. My main role
+        in the team was gameplay programming, but I also contributed some 3D models, animations
+        and most materials.</p>
+        <p>GIVE is a sidescrolling shoot-em-up where you control white blood cells with the
+        goal to safely escort the erythrocytes inside a blood vessel, defending them from bacteria.
+        The game uses most of the classic mechanics of the genre, plus some extra elements such as "blood transfusion".</p>
+        <p>The game features local multiplayer up to 4 people, allowing joining in mid-game in a perfect
+        arcade fashion. There are 4 playable characters, each with its own basic attack and "bomb",
+        3 levels, each with its unique boss, and a bunch of enemies with different patterns.</p>
       </div>
     </div>
   </li>
