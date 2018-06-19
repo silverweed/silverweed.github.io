@@ -145,7 +145,7 @@ div.gamedesc {
           <img src="/assets/img/give/give_gameplay1.png" alt="GIVE"/>
         </a>
         <a href='/assets/video/gives/buddy_boss_lv1.mp4'>
-          <img class="thumb" src="/assets/video/give/buddy_boss_lv1_thumb.png" alt="Gadget"/>
+          <img class="thumb" src="/assets/video/give/buddy_boss_lv1_thumb.png" alt="GIVE"/>
           <video src="/assets/video/give/buddy_boss_small.webm" alt="GIVE"></video>
         </a>
         <a href='/assets/img/give/boss_lv3.png'>
@@ -158,8 +158,46 @@ div.gamedesc {
           <img src="/assets/img/give/give_selection.png" alt="GIVE"/>
         </a>
         <a href='/assets/video/give/tiny.mp4'>
-          <img class="thumb" src="/assets/video/give/tiny_thumb.png" alt="Gadget"/>
+          <img class="thumb" src="/assets/video/give/tiny_thumb.png" alt="GIVE"/>
           <video src="/assets/video/give/tiny_small.webm" alt="GIVE"></video>
+        </a>
+      </div>
+    </div>
+  </li>
+  <li style='background: rgba(220, 220, 220, 1.0)'>
+    <div class='game'>
+      <div class='gamedesc' style='align-self: flex-start'>
+        <h1>Hacknid</h1>
+        <h3>Roles: gameplay, shader and tool programmer</h3>
+        <p>Hacknid is a game made in 48 hours for Global Game Jam 2018 by a team of 4 people, available for
+        download <a href="https://globalgamejam.org/2018/games/hacknid">here</a>.</p>
+        <p>It's a 2D puzzle/stealth game where you must get to the end of the level by controlling not only
+        your character, but enemies as well.</p>
+        <p>As the game received positive feedback, we kept on developing Hacknid to expand it into a full
+        game. Like during the jam, I'm the main programmer both for gameplay and shading.</p>
+        <p>We're using GameMaker Studio, but as our game needs lots of levels we developed our own external
+        level editor in C# / WPF to ease the work of designers.</p> 
+      </div>
+      <div class='game-imgs'>
+        <a href='/assets/img/hacknid/hacknid_gameplay1.png'>
+          <img src="/assets/img/hacknid/hacknid_gameplay1.png" alt="Hacknid"/>
+        </a>
+        <a href='/assets/video/hacknid/hacknid_gameplay.webm'>
+          <img class='thumb' src="/assets/video/hacknid/hacknid_gameplay.png" alt="Hacknid"/>
+          <video src="/assets/video/hacknid/hacknid_gameplay_small.webm" alt="Hacknid"/>
+        </a>
+        <a href='/assets/img/hacknid/hacknid_menu.png'>
+          <img src="/assets/img/hacknid/hacknid_menu.png" alt="Hacknid"/>
+        </a>
+        <a href='/assets/img/hacknid/hacknid_gameplay2.png'>
+          <img src="/assets/img/hacknid/hacknid_gameplay2.png" alt="Hacknid"/>
+        </a>
+        <a href='/assets/img/hacknid/hacknid_gameplay3.png'>
+          <img src="/assets/img/hacknid/hacknid_gameplay3.png" alt="Hacknid"/>
+        </a>
+        <a href='/assets/video/hacknid/hacknid_gameplay2.webm'>
+          <img class='thumb' src="/assets/video/hacknid/hacknid_gameplay2.png" alt="Hacknid"/>
+          <video src="/assets/video/hacknid/hacknid_gameplay2_small.webm" alt="Hacknid"/>
         </a>
       </div>
     </div>
