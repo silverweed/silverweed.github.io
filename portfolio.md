@@ -144,7 +144,7 @@ div.gamedesc {
         <a href='/assets/img/give/give_gameplay1.png'>
           <img src="/assets/img/give/give_gameplay1.png" alt="GIVE"/>
         </a>
-        <a href='/assets/video/gives/buddy_boss_lv1.mp4'>
+        <a href='/assets/video/give/buddy_boss_lv1.mp4'>
           <img class="thumb" src="/assets/video/give/buddy_boss_lv1_thumb.png" alt="GIVE"/>
           <video src="/assets/video/give/buddy_boss_small.webm" alt="GIVE"></video>
         </a>
