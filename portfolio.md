@@ -60,9 +60,25 @@ div.gamedesc {
 .game-imgs video {
 	display: none;
 }
+.gamedesc.right {
+  justify-content: flex-end;
+}
 </style>
 
 <ul class='gamelist'>
+  <li style='background: rgba(250, 250, 250, 1.0)'>
+    <div class="game">
+      <div class="gamedesc right">
+        <!-- Hi, mom! I'm a game! -->
+        <h1>About me</h1>
+        <p>I'm Giacomo Parolini.</p>
+        <p>I like science, especially Physics.</p>
+        <p>I like games, especially videogames.</p>
+        <p>I like programming, especially game programming.</p>
+        <p>Read more about me and what I do <a href="https://silverweed.github.io/about_this_blog_(and_its_author)">on my blog</a> if you're interested!</p>
+      </div>
+    </div>
+  </li>
   <li style='background: rgba(210, 210, 210, 1.0)'>
     <div class='game'>
       <div class='gamedesc'>
