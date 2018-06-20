@@ -207,9 +207,10 @@ div.gamedesc {
       <div class='gamedesc' style='align-self: flex-start'>
         <h1>Master Thesis [currently unnamed]</h1>
         <p>My Master Thesis project, written in C++14 using the Vulkan API. Runs on Linux and Windows.</p>
-        <p>This project explores the concept of a “distributed rendering engine” with the aim to split the graphics
+        <p>This project explores the concept of a “distributed rendering engine” for videogames with the aim to split the graphics
         pipeline between a server and a client. My goal is to create a hybrid model between  the "classic heavyweight
-        videogame client" (where the client makes all the processing needed for rendering) and the more recent "videogame streaming model"
+        client" model (where the client makes all the processing needed for rendering) and the more recent 
+        "streaming" model
         (where the server does all the processing and sends the stream of rendered frames to the client).</p>
         <p>In my project, models, textures and shaders live on the server, which does most of the application-stage
         work. Then, rather than rendering models and sending frames to the client, it sends preprocessed geometry data
