@@ -96,13 +96,13 @@ div.gamedesc {
     <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
         <h1>Gadget</h1>
-        <h3>Roles: programmer</h3>
         <p>An ongoing "toy" rendering engine I'm doing in my free time as a way to get a solid grasp on OpenGL and graphics
         programming. My plan is to also integrate it with a physics engine in the future.</p>
         <p>Gadget is written in D and uses OpenGL + SFML for windowing. It's currently only being tested on Linux.</p>
         <p>Its source code is available <a href="https://github.com/silverweed/gadget">on Github</a>.</p>
         <p>Currently, after a couple of months of work, Gadget features: basic primitive drawing, instanced drawing,
-        texturing, diffuse/specular/normal maps, ambient/directional/point lights, Blinn-Phong shading, shadow mapping and skybox drawing.</p>
+        texturing, diffuse/specular/normal maps, ambient/directional/multiple point lights, 
+	Blinn-Phong shading, shadow mapping and skybox drawing.</p>
         <p>Work on Gadget is currently on hiatus due to me working on a similar project for my Master thesis, 
         but you can read a couple of articles about it <a href="http://localhost:4000/tags/#gadget">on my blog</a>.</p>
       </div>
@@ -198,6 +198,27 @@ div.gamedesc {
         <a href='/assets/video/hacknid/hacknid_gameplay2.webm'>
           <img class='thumb' src="/assets/video/hacknid/hacknid_gameplay2.png" alt="Hacknid"/>
           <video src="/assets/video/hacknid/hacknid_gameplay2_small.webm" alt="Hacknid"/>
+        </a>
+      </div>
+    </div>
+  </li>
+  <li style='background: rgba(210, 210, 210, 1.0)'>
+    <div class='game'>
+      <div class='gamedesc' style='align-self: flex-start'>
+        <h1>Master Thesis [currently unnamed]</h1>
+        <p>My Master Thesis project, written in C++14 using the Vulkan API. Runs on Linux and Windows.</p>
+        <p>This project explores the concept of a “distributed rendering engine” with the aim to split the graphics
+        pipeline between a server and a client. My goal is to create a hybrid model between  the "classic heavyweight
+        videogame client" (where the client makes all the processing needed for rendering) and the more recent "videogame streaming model"
+        (where the server does all the processing and sends the stream of rendered frames to the client).</p>
+        <p>In my project, models, textures and shaders live on the server, which does most of the application-stage
+        work. Then, rather than rendering models and sending frames to the client, it sends preprocessed geometry data
+        to it, which in turn runs all the following pipeline stages.</p>
+        <p>This project is work in progress. As such, no significant images or videos are available yet.</p>
+      </div>
+      <div class='game-imgs'>
+        <a href='/assets/img/thesis_noimg.png'>
+          <img src="/assets/img/thesis_noimg.png" alt="Thesis"/>
         </a>
       </div>
     </div>
