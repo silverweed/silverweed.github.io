@@ -149,7 +149,7 @@ div.gamedesc {
         <p>The final product is the result of one year of work from a team of 2 people. My main role
         in the team was gameplay programming, but I also contributed some 3D models, animations
         and most materials.</p>
-        <p>GIVE is a sidescrolling shoot-em-up where you control white blood cells with the
+        <p>GIVE is a sidescrolling shoot-em-up for PC where you control white blood cells with the
         goal to safely escort the erythrocytes inside a blood vessel, defending them from bacteria.
         The game uses most of the classic mechanics of the genre, plus some extra elements such as "blood transfusion".</p>
         <p>The game features local multiplayer up to 4 people, allowing joining in mid-game in a perfect
@@ -187,7 +187,7 @@ div.gamedesc {
         <h3>Roles: gameplay, shader and tool programmer</h3>
         <p>Hacknid is a game made in 48 hours for Global Game Jam 2018 by a team of 4 people, available for
         download <a href="https://globalgamejam.org/2018/games/hacknid">here</a>.</p>
-        <p>It's a 2D puzzle/stealth game where you must get to the end of the level by controlling not only
+        <p>It's a 2D puzzle/stealth game for PC where you must get to the end of the level by controlling not only
         your character, but enemies as well.</p>
         <p>As the game received positive feedback, we kept on developing Hacknid to expand it into a full
         game. Like during the jam, I'm the main programmer both for gameplay and shading.</p>
@@ -236,6 +236,76 @@ div.gamedesc {
       <div class='game-imgs'>
         <a href='/assets/img/thesis_noimg.png'>
           <img src="/assets/img/thesis_noimg.png" alt="Thesis"/>
+        </a>
+      </div>
+    </div>
+  </li>
+  <li style='background: rgba(220, 220, 220, 1.0)'>
+    <div class='game'>
+      <div class='gamedesc' style='align-self: flex-start'>
+        <h1>qU</h1>
+        <h3>Roles: programmer</h3>
+        <p>A 2D puzzle game for mobile, developed in a team of 3 people as a project for the university course of Mobile Computing.
+        We used the Unity game engine.</p>
+        <p>The game is available on <a href="https://play.google.com/store/apps/details?id=it.unimi.qu">Play Store</a>, 
+        <a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1291428731&mt=8">App Store</a>
+        and <a href="https://www.microsoft.com/it-it/p/qu-save-the-colors/9ndgt6pm721n">Windows Store</a>.</p>
+        <p>Save as many "qU" as possible by tapping the matching color before the blades close on them.</p>
+        <p>Features 10 levels and a collectible card achievement system.</p>
+        <p>qU was designed as a way to collect anonymous data for an academy research 
+        on color perception. Therefore, the game has a builtin data collection system which
+        records the player's results and sends them to an external database.</p>
+        <p>I wrote the whole data collection system, as well as a significant part of the
+        gameplay code.</p>
+      </div>
+      <div class='game-imgs'>
+        <a href='/assets/img/qU/qu_gameplay1.png'>
+          <img src="/assets/img/qU/qu_gameplay1.png" alt="qU"/>
+        </a>
+        <a href='/assets/img/qU/qu_gameplay2.png'>
+          <img src="/assets/img/qU/qu_gameplay2.png" alt="qU"/>
+        </a>
+        <a href='/assets/img/qU/qu_card_unlocked.png'>
+          <img src="/assets/img/qU/qu_card_unlocked.png" alt="qU"/>
+        </a>
+        <a href='/assets/img/qU/qu_map.png'>
+          <img src="/assets/img/qU/qu_map.png" alt="qU"/>
+        </a>
+      </div>
+    </div>
+  </li>
+  <li style='background: rgba(210, 210, 210, 1.0)'>
+    <div class='game'>
+      <div class='gamedesc' style='align-self: flex-start'>
+        <h1>Wavescape</h1>
+        <h3>Roles: programmer, designer</h3>
+        <p>Wavescape is a game made in 48 hours for Global Game Jam 2017 by a team of 6 people, available for
+        download <a href="https://globalgamejam.org/2017/games/wavescape-0">here</a>.</p>
+        <p>It's a 2D puzzle game for Windows and Linux where you control the wave function of an ion
+        trapped in a quantum computer. The ion follows its wave: change its shape to make it avoid
+        the obstacles!</p>
+        <p>I was mainly a gameplay programmer, but I also contributed to the game concept and helped
+        design a level.</p>
+      </div>
+      <div class='game-imgs'>
+        <a href='/assets/img/wavescape/wv_menu.png'>
+          <img src="/assets/img/wavescape/wv_menu_small.png" alt="Wavescape"/>
+        </a>
+        <a href='/assets/img/wavescape/wv_lv1.png'>
+          <img src="/assets/img/wavescape/wv_lv1_small.png" alt="Wavescape"/>
+        </a>
+        <a href='/assets/img/wavescape/wv_lv2.png'>
+          <img src="/assets/img/wavescape/wv_lv2_small.png" alt="Wavescape"/>
+        </a>
+        <a href='/assets/img/wavescape/wv_lv3.png'>
+          <img src="/assets/img/wavescape/wv_lv3_small.png" alt="Wavescape"/>
+        </a>
+        <a href='/assets/img/wavescape/wv_lv4.png'>
+          <img src="/assets/img/wavescape/wv_lv4_small.png" alt="Wavescape"/>
+        </a>
+        <a href='/assets/video/wavescape/wv_gameplay.webm'>
+          <img class='thumb' src="/assets/video/wavescape/wv_gameplay_thumb.png" alt="Wavescape"/>
+          <video src="/assets/video/wavescape/wv_gameplay_small.webm" alt="Wavescape"/>
         </a>
       </div>
     </div>
