@@ -310,6 +310,37 @@ div.gamedesc {
       </div>
     </div>
   </li>
+  <li style='background: rgba(220, 220, 220, 1.0)'>
+    <div class='game'>
+      <div class='gamedesc' style='align-self: flex-start'>
+        <h1>Realtime Graphics Programming project [unnamed]</h1>
+        <h3>Roles: programmer</h3>
+        <p>A project made for a course in Realtime Graphics Programming by a team of 2 people.</p>
+        <p>It's a toon-shaded "tech demo" viewable in browser where you make a small turtle swim in the ocean among floating barrels.</p>
+        <p>Uses <a href="https://threejs.org/">THREE.js</a> as a WebGL helper and <a href="https://github.com/kripken/ammo.js/">Ammo.js</a>
+        as Bullet Physics binding to Javascript.</p>
+        <p>Both the barrels and the turtle are dynamic rigidbodies which collide and float through physics simulation.</p>
+        <p>In this project, I wrote the physics simulation system (including the player's movement and the floating of
+        objects) as well as most of the assets loading and initialization, which is mostly asynchronous.</p>
+        <p>I used <a href="http://maxtaco.github.io/coffee-script/">Iced Coffeescript</a> to ease the writing of the
+        numerous asynchronous parts of the code. The code is available <a href="https://github.com/silverweed/pgtr/">here</a>.</p>
+      </div>
+      <div class='game-imgs'>
+        <a href='/assets/img/pgtr/pgtr1.png'>
+          <img src="/assets/img/pgtr/pgtr1.png" alt="PGTR"/>
+        </a>
+        <a href='/assets/img/pgtr/pgtr2.png'>
+          <img src="/assets/img/pgtr/pgtr2.png" alt="PGTR"/>
+        </a>
+        <a href='/assets/img/pgtr/pgtr3.png'>
+          <img src="/assets/img/pgtr/pgtr3.png" alt="PGTR"/>
+        </a>
+        <a href='/assets/img/pgtr/pgtr4.png'>
+          <img src="/assets/img/pgtr/pgtr4.png" alt="PGTR"/>
+        </a>
+      </div>
+    </div>
+  </li>
 </ul>
 
 <script>
