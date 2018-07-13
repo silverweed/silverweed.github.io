@@ -237,8 +237,11 @@ div.gamedesc {
         <p>This project is work in progress. As such, no significant images or videos are available yet.</p>
       </div>
       <div class='game-imgs'>
-        <a href='/assets/img/thesis_noimg.png'>
-          <img src="/assets/img/thesis_noimg.png" alt="Thesis"/>
+        <a href='/assets/img/thesis/thesis1.png'>
+          <img src="/assets/img/thesis/thesis1.png" alt="Thesis"/>
+        </a>
+        <a href='/assets/img/thesis/thesis2.png'>
+          <img src="/assets/img/thesis/thesis2.png" alt="Thesis"/>
         </a>
       </div>
     </div>
