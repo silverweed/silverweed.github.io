@@ -243,6 +243,10 @@ div.gamedesc {
         <a href='/assets/img/thesis/thesis2.png'>
           <img src="/assets/img/thesis/thesis2.png" alt="Thesis"/>
         </a>
+        <a href='/assets/video/thesis/thesis_tex_streaming.webm'>
+          <img class='thumb' src='/assets/video/thesis/thesis_tex_streaming.png' alt='Thesis'/>
+          <video src="/assets/video/thesis/thesis_tex_streaming.webm" alt="Thesis"/>
+        </a>
       </div>
     </div>
   </li>
