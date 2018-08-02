@@ -234,7 +234,6 @@ div.gamedesc {
         <p>In my project, models, textures and shaders live on the server, which does most of the application-stage
         work. Then, rather than rendering models and sending frames to the client, it sends preprocessed geometry data
         to it, which in turn runs all the following pipeline stages.</p>
-        <p>This project is work in progress. As such, no significant images or videos are available yet.</p>
       </div>
       <div class='game-imgs'>
         <a href='/assets/img/thesis/thesis1.png'>
