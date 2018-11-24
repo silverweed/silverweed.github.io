@@ -43,6 +43,17 @@ div.gamedesc {
     </a>
   </li>
   <li>
+    <a href="/boom/">
+      <div class='game'>
+        <img src="/assets/img/boom_screen1.png" alt="BOOM"/>
+        <div class='gamedesc'>
+          <h2>BOOM</h2>
+          <p>A Lifish mod that faithfully recreates the original MacOS game "BOOM" by Factor Software that inspired Lifish.</p>
+        </div>
+      </div>
+    </a>
+  </li>
+  <li>
     <a href="/hacknid/">
       <div class='game'>
         <img src="/assets/img/hacknid_logo.png" alt="Hacknid"/>
