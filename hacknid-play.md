@@ -28,5 +28,5 @@ header {
   <br>
   <a href="/hacknid-play/" target="_blank">> Play Online</a>
   <br>
-  <a href="/assets/games/Hacknid.zip">> Download for Windows</a>
+  <a href="/assets/games/hacknid/Hacknid.zip">> Download for Windows</a>
 </div>
