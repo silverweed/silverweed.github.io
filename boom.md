@@ -39,7 +39,7 @@ However, as most of the code is there, I figured in the meantime I could work on
 <h3 id='downloads'>DOWNLOADS</h3>
 
 <ul>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.2_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.2.1_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a></li>
   <li><a href='/assets/games/lifish/lifish_BOOM_1.2_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.2_osx.zip'>BOOM Remake (OSX)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.2.1_osx.zip'>BOOM Remake (OSX)</a></li>
 </ul>
