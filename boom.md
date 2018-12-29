@@ -11,6 +11,10 @@ p.discl {
 	background-color: #ff7f7f;
 	color: #910000;
 }
+.changelog ul {
+	line-height: 15px;
+	margin-top: 10px;
+}
 </style>
 
 <a href='#downloads'>Jump to downloads</a>
@@ -39,7 +43,34 @@ However, as most of the code is there, I figured in the meantime I could work on
 <h3 id='downloads'>DOWNLOADS</h3>
 
 <ul>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.2.1_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.2.1_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.2.1_osx.zip'>BOOM Remake (OSX)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.2.2_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.2.2_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.2.2_osx.zip'>BOOM Remake (OSX)</a></li>
 </ul>
+
+<h3 id='changelog'>CHANGELOG</h3>
+
+<dl class='changelog'>
+  <dt><strong>1.2.2 (current)</strong></dt>
+  <dd>
+    <ul>
+      <li>Tweaked several parameters to make the game more close to the original BOOM</li>
+      <li>Fixed enemies not properly colliding with players when players are moving</li>
+      <li>Fixed bosses not being in sync when shooting</li>
+      <li>Fixed time bonus giving more points than intended</li>
+      <li>Fixed an issue with Ghosts animation</li>
+    </ul>
+  </dd>
+  <dt>1.2.1</dt>
+  <dd>
+    <ul>
+      <li>Added single-player mode</li>
+    </ul>
+  </dd>
+  <dt>1.2</dt>
+  <dd>
+    <ul>
+      <li>First release</li>
+    </ul>
+  </dd>
+</dl>
