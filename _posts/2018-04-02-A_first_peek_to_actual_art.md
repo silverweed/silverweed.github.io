@@ -31,8 +31,8 @@ In the latest months, Elisa's been working on concept art and animations to star
 a shape and we're starting to get a grasp on what it shall feel like.
 
 <figure>
-  <a style='width:100%' href='/assets/img/lifish-concept.png'>
-    <img src='/assets/img/lifish-concept.png' alt='Lifish Concept Art'/>
+  <a style='width:100%' href='/assets/img/lifish/lifish-concept.png'>
+    <img src='/assets/img/lifish/lifish-concept.png' alt='Lifish Concept Art'/>
   </a>
   <figcaption>Concept art for the first area of Lifish</figcaption>
 </figure>

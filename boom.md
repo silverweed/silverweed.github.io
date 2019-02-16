@@ -21,11 +21,11 @@ p.discl {
 
 BOOM was a [shareware game for MacOS](https://www.macintoshrepository.org/3582-boom) created by Federico Filipponi (FactorSoftware). The game's slogan was "Bomberman meets DOOM": you could play solo or in local coop throughout 80 levels, facing a plethora of different enemies, intermediate bosses and a final Big Alien Boss.
 
-<a href='/assets/img/boom_screen1.png'>
-  <img class='preview' src="/assets/img/boom_screen1.png"/>
+<a href='/assets/img/boom/boom_screen1.png'>
+  <img class='preview' src="/assets/img/boom/boom_screen1.png"/>
 </a>
-<a href='/assets/img/boom_screen2.png'>
-  <img class='preview' src="/assets/img/boom_screen2.png"/>
+<a href='/assets/img/boom/boom_screen2.png'>
+  <img class='preview' src="/assets/img/boom/boom_screen2.png"/>
 </a>
 
 Unfortunately, the game's original site is not accessible anymore, so BOOM can only be downloaded from archives found on the Internet.

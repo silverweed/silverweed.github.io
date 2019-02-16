@@ -19,8 +19,8 @@ Release date for the game is still unknown, but you can track the development pr
 
 ## Gallery (art not final!) ##
 <figure>
-  <a href='/assets/img/lifish_screen1.png'>
-    <img src='/assets/img/lifish_screen1.png' alt='Lifish level1 programmer art'/>
+  <a href='/assets/img/lifish/lifish_screen1.png'>
+    <img src='/assets/img/lifish/lifish_screen1.png' alt='Lifish level1 programmer art'/>
   </a>
   <figcaption>The (current) first level of the game with its beautiful "programmer art"</figcaption>
 </figure>
@@ -44,8 +44,8 @@ Release date for the game is still unknown, but you can track the development pr
 </figure>
 
 <figure>
-  <a style='width:100%' href='/assets/img/lifish-concept.png'>
-    <img src='/assets/img/lifish-concept.png' alt='Lifish Concept Art'/>
+  <a style='width:100%' href='/assets/img/lifish/lifish-concept.png'>
+    <img src='/assets/img/lifish/lifish-concept.png' alt='Lifish Concept Art'/>
   </a>
   <figcaption>Concept art for the first area of Lifish</figcaption>
 </figure>

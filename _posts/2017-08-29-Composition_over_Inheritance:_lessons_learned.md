@@ -49,8 +49,8 @@ everything else fall down.
 Let me give you a real-life example of this, straight from my first attempt at creating Lifish:
 
 <figure>
-  <a href="/assets/img/lifish_0.x_dot.png">
-    <img style='max-height: 500px' src="/assets/img/lifish_0.x_dot.png" alt="Dot graph of Lifish 0.x"/>
+  <a href="/assets/img/lifish/lifish_0.x_dot.png">
+    <img style='max-height: 500px' src="/assets/img/lifish/lifish_0.x_dot.png" alt="Dot graph of Lifish 0.x"/>
   </a>
   <figcaption>A sub-optimal class hierarchy</figcaption>
 </figure>
@@ -61,8 +61,8 @@ or `LifedMovingEntity` (more on that later).
 Now compare it to the current Lifish class hierarchy:
 
 <figure>
-  <a href="/assets/img/lifish_1.x_dot.png">
-    <img style='max-height: 500px' src="/assets/img/lifish_1.x_dot.png" alt="Dot graph of Lifish 1.x"/>
+  <a href="/assets/img/lifish/lifish_1.x_dot.png">
+    <img style='max-height: 500px' src="/assets/img/lifish/lifish_1.x_dot.png" alt="Dot graph of Lifish 1.x"/>
   </a>
   <figcaption>A much better class hierarchy</figcaption>
 </figure>

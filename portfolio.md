@@ -98,13 +98,13 @@ div.gamedesc {
         is going to be replaced by the final version (which is being made by another person).</p>
       </div>
       <div class='game-imgs'>
-        <a href='/assets/img/lifish_screen1.png'><img src="/assets/img/lifish_screen1.png" alt="Lifish"/></a>
+        <a href='/assets/img/lifish/lifish_screen1.png'><img src="/assets/img/lifish/lifish_screen1.png" alt="Lifish"/></a>
         <a href='/assets/video/rex_atk.webm'>
           <img class="thumb" src="/assets/video/rex_atk_thumb.png" alt="Lifish"/>
           <video src="/assets/video/rex_atk.webm" alt="Lifish"></video>
         </a>
-        <a href='/assets/img/lifish_lv11.png'><img src="/assets/img/lifish_lv11.png" alt="Lifish"/></a>
-        <a href='/assets/img/lifish_lv30.png'><img src="/assets/img/lifish_lv30.png" alt="Lifish"/></a>
+        <a href='/assets/img/lifish/lifish_lv11.png'><img src="/assets/img/lifish/lifish_lv11.png" alt="Lifish"/></a>
+        <a href='/assets/img/lifish/lifish_lv30.png'><img src="/assets/img/lifish/lifish_lv30.png" alt="Lifish"/></a>
       </div>
     </div>
   </li>
@@ -224,7 +224,9 @@ div.gamedesc {
   <li style='background: rgba(210, 210, 210, 1.0)'>
     <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
-        <h1>Master Thesis [currently unnamed]</h1>
+        <h1>Master Thesis: Distributed Rendering in Vulkan</h1>
+        <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="/assets/docs/distributed_rendering_in_vulkan.pdf">paper</a></p>
+        <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://github.com/silverweed/thesis">source</a></p>
         <p>My Master Thesis project, written in C++14 using the Vulkan API. Runs on Linux and Windows.</p>
         <p>This project explores the concept of a “distributed rendering engine” for videogames with the aim to split the graphics
         pipeline between a server and a client. My goal is to create a hybrid model between  the "classic heavyweight
@@ -347,6 +349,38 @@ div.gamedesc {
         </a>
         <a href='/assets/img/pgtr/pgtr4.png'>
           <img src="/assets/img/pgtr/pgtr4.png" alt="PGTR"/>
+        </a>
+      </div>
+    </div>
+  </li>
+  <li style='background: rgba(210, 210, 210, 1.0)'>
+    <div class='game'>
+      <div class='gamedesc' style='align-self: flex-start'>
+        <h1>Blockster</h1>
+        <h3>Roles: programmer, designer</h3>
+        <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://www.youtube.com/watch?v=d_ngjdZGyxI">trailer</a></p>
+        <p>Blockster is a game made in 48 hours for Global Game Jam 2019 by a team of 4 people, available for
+        download <a href="https://silverweed91.itch.io/blockster">here</a>.</p>
+        <p>It's a frenetic 1v1 arena brawler for Windows and Linux where your goal is to reach your opponent's house
+        while preventing him/her to do the same. There's also a kill counter for fun and profit! </p>
+        <p>I was mainly a gameplay programmer, but I also contributed to the game concept.</p>
+      </div>
+      <div class='game-imgs'>
+        <a href='/assets/img/blockster/blockster_featured.png'>
+          <img src="/assets/img/blockster/blockster_featured_small.png" alt="Blockster"/>
+        </a>
+        <a href='/assets/img/blockster/blockster_1.png'>
+          <img src="/assets/img/blockster/blockster_1_small.png" alt="Wavescape"/>
+        </a>
+        <a href='/assets/img/blockster/blockster_4.png'>
+          <img src="/assets/img/blockster/blockster_4_small.png" alt="Wavescape"/>
+        </a>
+        <a href='/assets/img/blockster/blockster_2.png'>
+          <img src="/assets/img/blockster/blockster_2_small.png" alt="Wavescape"/>
+        </a>
+        <a href='/assets/video/blockster/blockster_gameplay.webm'>
+          <img class='thumb' src="/assets/video/blockster_gameplay_thumb.png" alt="Wavescape"/>
+          <video src="/assets/video/blockster/blockster_gameplay_small.webm" alt="Wavescape"/>
         </a>
       </div>
     </div>
