@@ -26,8 +26,8 @@ Release date for the game is still unknown, but you can track the development pr
 </figure>
 
 <figure>
-  <a href='/assets/video/rex_atk.webm'>
-    <video style='width: 100%' src='/assets/video/rex_atk.webm' alt='Playtesting rex boss' loop muted preload autoplay>
+  <a href='/assets/video/lifish/rex_atk.webm'>
+    <video style='width: 100%' src='/assets/video/lifish/rex_atk.webm' alt='Playtesting rex boss' loop muted preload autoplay>
       Your browser does not support HTML5.
     </video>
   </a>
@@ -35,8 +35,8 @@ Release date for the game is still unknown, but you can track the development pr
 </figure>
 
 <figure>
-  <a href='/assets/video/lifish-p2-zoomed.webm'>
-    <video style='width: 100%' src='/assets/video/lifish-p2-zoomed.webm' alt='Lifish Player2 sneak peek' loop muted preload autoplay>
+  <a href='/assets/video/lifish/lifish-p2-zoomed.webm'>
+    <video style='width: 100%' src='/assets/video/lifish/lifish-p2-zoomed.webm' alt='Lifish Player2 sneak peek' loop muted preload autoplay>
       Your browser does not support HTML5.
     </video>
   </a>

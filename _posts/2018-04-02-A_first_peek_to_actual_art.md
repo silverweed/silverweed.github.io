@@ -19,8 +19,8 @@ Thanks to the talented hand of Elisa, the artist collaborating with me to create
 our protagonist is now really ready to kick some alien asses. I mean, look at him!
 
 <figure>
-  <a href='/assets/video/lifish-p2-zoomed.webm'>
-    <video style='width: 100%' src='/assets/video/lifish-p2-zoomed.webm' alt='Lifish Player2 sneak peek' loop muted preload autoplay>
+  <a href='/assets/video/lifish/lifish-p2-zoomed.webm'>
+    <video style='width: 100%' src='/assets/video/lifish/lifish-p2-zoomed.webm' alt='Lifish Player2 sneak peek' loop muted preload autoplay>
       Your browser does not support HTML5.
     </video>
   </a>

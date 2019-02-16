@@ -99,9 +99,9 @@ div.gamedesc {
       </div>
       <div class='game-imgs'>
         <a href='/assets/img/lifish/lifish_screen1.png'><img src="/assets/img/lifish/lifish_screen1.png" alt="Lifish"/></a>
-        <a href='/assets/video/rex_atk.webm'>
-          <img class="thumb" src="/assets/video/rex_atk_thumb.png" alt="Lifish"/>
-          <video src="/assets/video/rex_atk.webm" alt="Lifish"></video>
+        <a href='/assets/video/lifish/rex_atk.webm'>
+          <img class="thumb" src="/assets/video/lifish/rex_atk_thumb.png" alt="Lifish"/>
+          <video src="/assets/video/lifish/rex_atk.webm" alt="Lifish"></video>
         </a>
         <a href='/assets/img/lifish/lifish_lv11.png'><img src="/assets/img/lifish/lifish_lv11.png" alt="Lifish"/></a>
         <a href='/assets/img/lifish/lifish_lv30.png'><img src="/assets/img/lifish/lifish_lv30.png" alt="Lifish"/></a>
@@ -124,7 +124,7 @@ div.gamedesc {
       </div>
       <div class='game-imgs'>
         <a href='/assets/img/gadget/cubes.png'>
-          <img src="/assets/img/gadget/cubes.png" alt="Gadget"/>
+          <img src="/assets/img/gadget/cubes_small.png" alt="Gadget"/>
         </a>
         <a href='/assets/video/gadget/multiplelights.webm'>
           <img class="thumb" src="/assets/video/gadget/multiplelights_thumb.png" alt="Gadget"/>
@@ -135,7 +135,7 @@ div.gamedesc {
           <video src="/assets/video/gadget/shadows_small.webm" alt="Gadget"></video>
         </a>
         <a href='/assets/img/gadget/gadget_screen1.png'>
-          <img src="/assets/img/gadget/gadget_screen1.png" alt="Gadget"/>
+          <img src="/assets/img/gadget/gadget_screen1_small.png" alt="Gadget"/>
         </a>
       </div>
     </div>
@@ -158,7 +158,7 @@ div.gamedesc {
       </div>
       <div class='game-imgs'>
         <a href='/assets/img/give/give_gameplay1.png'>
-          <img src="/assets/img/give/give_gameplay1.png" alt="GIVE"/>
+          <img src="/assets/img/give/give_gameplay1_small.png" alt="GIVE"/>
         </a>
         <a href='/assets/video/give/buddy_boss_lv1.mp4'>
           <img class="thumb" src="/assets/video/give/buddy_boss_lv1_thumb.png" alt="GIVE"/>
@@ -168,10 +168,10 @@ div.gamedesc {
           <img src="/assets/img/give/boss_lv3.png" alt="GIVE"/>
         </a>
         <a href='/assets/img/give/nuke_explosion.png'>
-          <img src="/assets/img/give/nuke_explosion.png" alt="GIVE"/>
+          <img src="/assets/img/give/nuke_explosion_small.png" alt="GIVE"/>
         </a>
         <a href='/assets/img/give/give_selection.png'>
-          <img src="/assets/img/give/give_selection.png" alt="GIVE"/>
+          <img src="/assets/img/give/give_selection_small.png" alt="GIVE"/>
         </a>
         <a href='/assets/video/give/tiny.mp4'>
           <img class="thumb" src="/assets/video/give/tiny_thumb.png" alt="GIVE"/>
@@ -202,11 +202,11 @@ div.gamedesc {
           <img src="/assets/img/hacknid/hacknid_gameplay1.png" alt="Hacknid"/>
         </a>
         <a href='/assets/video/hacknid/hacknid_gameplay.webm'>
-          <img class='thumb' src="/assets/video/hacknid/hacknid_gameplay.png" alt="Hacknid"/>
+          <img class='thumb' src="/assets/video/hacknid/hacknid_gameplay_small.png" alt="Hacknid"/>
           <video src="/assets/video/hacknid/hacknid_gameplay_small.webm" alt="Hacknid"/>
         </a>
         <a href='/assets/img/hacknid/hacknid_menu.png'>
-          <img src="/assets/img/hacknid/hacknid_menu.png" alt="Hacknid"/>
+          <img src="/assets/img/hacknid/hacknid_menu_small.png" alt="Hacknid"/>
         </a>
         <a href='/assets/img/hacknid/hacknid_gameplay2.png'>
           <img src="/assets/img/hacknid/hacknid_gameplay2.png" alt="Hacknid"/>
@@ -215,7 +215,7 @@ div.gamedesc {
           <img src="/assets/img/hacknid/hacknid_gameplay3.png" alt="Hacknid"/>
         </a>
         <a href='/assets/video/hacknid/hacknid_gameplay2.webm'>
-          <img class='thumb' src="/assets/video/hacknid/hacknid_gameplay2.png" alt="Hacknid"/>
+          <img class='thumb' src="/assets/video/hacknid/hacknid_gameplay2_small.png" alt="Hacknid"/>
           <video src="/assets/video/hacknid/hacknid_gameplay2_small.webm" alt="Hacknid"/>
         </a>
       </div>
@@ -239,10 +239,10 @@ div.gamedesc {
       </div>
       <div class='game-imgs'>
         <a href='/assets/img/thesis/thesis1.png'>
-          <img src="/assets/img/thesis/thesis1.png" alt="Thesis"/>
+          <img src="/assets/img/thesis/thesis1_small.png" alt="Thesis"/>
         </a>
         <a href='/assets/img/thesis/thesis2.png'>
-          <img src="/assets/img/thesis/thesis2.png" alt="Thesis"/>
+          <img src="/assets/img/thesis/thesis2_small.png" alt="Thesis"/>
         </a>
         <a href='/assets/video/thesis/thesis_tex_streaming.webm'>
           <img class='thumb' src='/assets/video/thesis/thesis_tex_streaming.png' alt='Thesis'/>
@@ -379,7 +379,7 @@ div.gamedesc {
           <img src="/assets/img/blockster/blockster_2_small.png" alt="Wavescape"/>
         </a>
         <a href='/assets/video/blockster/blockster_gameplay.webm'>
-          <img class='thumb' src="/assets/video/blockster_gameplay_thumb.png" alt="Wavescape"/>
+          <img class='thumb' src="/assets/video/blockster/blockster_gameplay_thumb.png" alt="Wavescape"/>
           <video src="/assets/video/blockster/blockster_gameplay_small.webm" alt="Wavescape"/>
         </a>
       </div>
