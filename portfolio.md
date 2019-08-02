@@ -120,7 +120,7 @@ div.gamedesc {
         texturing, diffuse/specular/normal maps, ambient/directional/multiple point lights, 
 	Blinn-Phong shading, shadow mapping and skybox drawing.</p>
         <p>Work on Gadget is currently on hiatus due to me working on a similar project for my Master thesis, 
-        but you can read a couple of articles about it <a href="http://localhost:4000/tags/#gadget">on my blog</a>.</p>
+        but you can read a couple of articles about it <a href="https://silverweed.github.io/tags/#gadget">on my blog</a>.</p>
       </div>
       <div class='game-imgs'>
         <a href='/assets/img/gadget/cubes.png'>
@@ -188,7 +188,7 @@ div.gamedesc {
         <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://www.youtube.com/watch?v=cNoHH2No_1M&index=60&list=PL4QF7lP4PZkBYflnk-bkJd_fs57Exw-YN">trailer</a></p>
         <p>Hacknid is a game made in 48 hours for Global Game Jam 2018 by a team of 4 people, available for
         download <a href="https://globalgamejam.org/2018/games/hacknid">here</a>. You can also 
-        <a href="http://localhost:4000/hacknid-play/">play it in your browser</a> (you'll need mouse+keyboard or
+        <a href="https://silverweed.github.io/hacknid-play/">play it in your browser</a> (you'll need mouse+keyboard or
         a joystick).</p>
         <p>It's a 2D puzzle/stealth game for PC where you must get to the end of the level by controlling not only
         your character, but enemies as well.</p>
