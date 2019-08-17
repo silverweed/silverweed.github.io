@@ -5,7 +5,8 @@ layout: single
 tags:  
   - videogames  
   - boom  
-  - lifish
+  - lifish  
+  - release
 ---
 
 Patch 1.3.0 for *BOOM: Remake* is up! You can find the new version [at the download page](https://silverweed.github.io/boom/).

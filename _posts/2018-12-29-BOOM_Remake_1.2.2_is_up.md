@@ -5,7 +5,8 @@ layout: single
 tags:  
   - videogames  
   - boom  
-  - lifish
+  - lifish  
+  - release
 ---
 
 A new version of BOOM Remake (1.2.2) is up! This version fixes various bugs and adds the possibility to play solo. Moreover, several parameters were tweaked to make the game more similar to the original BOOM.

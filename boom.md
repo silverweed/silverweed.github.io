@@ -46,15 +46,26 @@ However, as most of the code is there, I figured in the meantime I could work on
 <h3 id='downloads'>DOWNLOADS</h3>
 
 <ul>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.3.0_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.3.0_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.3.0_osx.zip'>BOOM Remake (OSX)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.3.1_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.3.1_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.3.1_osx.zip'>BOOM Remake (OSX)</a></li>
 </ul>
 
 <h3 id='changelog'>CHANGELOG</h3>
 
 <dl class='changelog'>
-  <dt><strong>1.3.0 (current)</strong></dt>
+  <dt><strong>1.3.1 (current)</strong></dt>
+  <dd>
+    <ul>
+      <li>Fixed enemies sometimes dealing damage to a player behind a teleporter</li>
+      <li>Fixed bombs' damage to bosses: now bombs deal exactly 5 damage when place underneath a boss tile like in the original game</li>
+      <li>Fixed bosses' fire rate not doubling during Hurry Up</li>
+      <li>Added fullscreen mode in the Preferences menu</li>
+      <li>Fixed the player playng the hurt animation when contacting dead enemies</li>
+      <li>Fixed Mean-O-Taurs and Ghosts attacking during Extra Game</li>
+    </ul>
+  </dd>
+  <dt>1.3.0</dt>
   <dd>
     <ul>
       <li>Fixed save/load</li>

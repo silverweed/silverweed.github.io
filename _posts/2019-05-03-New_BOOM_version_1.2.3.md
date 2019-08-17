@@ -5,7 +5,8 @@ layout: single
 tags:  
   - videogames  
   - boom  
-  - lifish
+  - lifish  
+  - release
 ---
 
 A new patch of BOOM: Remake is up! There is a small yet convenient change: preferences are now "remembered" by the
