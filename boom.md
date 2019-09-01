@@ -46,15 +46,25 @@ However, as most of the code is there, I figured in the meantime I could work on
 <h3 id='downloads'>DOWNLOADS</h3>
 
 <ul>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.3.1_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.3.1_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.3.1_osx.zip'>BOOM Remake (OSX)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.4.0_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.4.0_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.4.0_osx.zip'>BOOM Remake (OSX)</a></li>
 </ul>
 
 <h3 id='changelog'>CHANGELOG</h3>
 
 <dl class='changelog'>
-  <dt><strong>1.3.1 (current)</strong></dt>
+  <dt><strong>1.4.0 (current)</strong></dt>
+  <dd>
+    <ul>
+      <li>Fixed teleporters warping a player standing still</li>
+      <li>Fixed the player continuing to move after warping in a teleporter</li>
+      <li>Fixed the player being teleported upon hit while standing on a teleporter</li>
+      <li>Fixed a bug where the player could be hit by an enemy from behind a wall diagonally</li>
+      <li>Added 'Show FPS' and 'Vsync' options to Preferences</li>
+    </ul>
+  </dd>
+  <dt>1.3.1</dt>
   <dd>
     <ul>
       <li>Fixed enemies sometimes dealing damage to a player behind a teleporter</li>
