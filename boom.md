@@ -13,7 +13,7 @@ p.discl {
 	padding: 4px;
 }
 .changelog ul {
-	line-height: 15px;
+	line-height: 20px;
 	margin-top: 10px;
 }
 </style>
