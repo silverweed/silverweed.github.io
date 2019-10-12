@@ -48,7 +48,7 @@ However, as most of the code is there, I figured in the meantime I could work on
 <ul>
   <li><a href='/assets/games/lifish/lifish_BOOM_1.4.0_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a></li>
   <li><a href='/assets/games/lifish/lifish_BOOM_1.4.0_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.4.0_osx.zip'>BOOM Remake (OSX)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.4.0b_osx.zip'>BOOM Remake (OSX)</a></li>
 </ul>
 
 <h3 id='changelog'>CHANGELOG</h3>
