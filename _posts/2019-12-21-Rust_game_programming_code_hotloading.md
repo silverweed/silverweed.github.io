@@ -8,7 +8,7 @@ tags:
   - programming
 ---
 
-In [my previous post](/2019-11-30-Rust_game_programming_hotloading/) I talked about data hot-reloading and its implementation inside my game engine.
+In [my previous post](/Rust_game_programming_hotloading/) I talked about data hot-reloading and its implementation inside my game engine.
 Today it's time to tackle *code* hot-reloading, i.e. the possibility to change the game code, recompile it and see the results without having to
 quit and restart the program.
 
