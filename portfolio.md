@@ -199,24 +199,24 @@ div.gamedesc {
       </div>
       <div class='game-imgs'>
         <a href='/assets/img/hacknid/hacknid_gameplay1.png'>
-          <img src="/assets/img/hacknid/hacknid_gameplay1.png" alt="Hacknid"/>
+          <img src="/assets/img/hacknid/hacknid_gameplay1_small.png" alt="Hacknid"/>
         </a>
         <a href='/assets/video/hacknid/hacknid_gameplay.webm'>
           <img class='thumb' src="/assets/video/hacknid/hacknid_gameplay_small.png" alt="Hacknid"/>
-          <video src="/assets/video/hacknid/hacknid_gameplay_small.webm" alt="Hacknid"/>
+          <video src="/assets/video/hacknid/hacknid_gameplay_small.webm" alt="Hacknid"></video>
         </a>
         <a href='/assets/img/hacknid/hacknid_menu.png'>
           <img src="/assets/img/hacknid/hacknid_menu_small.png" alt="Hacknid"/>
         </a>
         <a href='/assets/img/hacknid/hacknid_gameplay2.png'>
-          <img src="/assets/img/hacknid/hacknid_gameplay2.png" alt="Hacknid"/>
+          <img src="/assets/img/hacknid/hacknid_gameplay2_small.png" alt="Hacknid"/>
         </a>
         <a href='/assets/img/hacknid/hacknid_gameplay3.png'>
-          <img src="/assets/img/hacknid/hacknid_gameplay3.png" alt="Hacknid"/>
+          <img src="/assets/img/hacknid/hacknid_gameplay3_small.png" alt="Hacknid"/>
         </a>
         <a href='/assets/video/hacknid/hacknid_gameplay2.webm'>
           <img class='thumb' src="/assets/video/hacknid/hacknid_gameplay2_small.png" alt="Hacknid"/>
-          <video src="/assets/video/hacknid/hacknid_gameplay2_small.webm" alt="Hacknid"/>
+          <video src="/assets/video/hacknid/hacknid_gameplay2_small.webm" alt="Hacknid"></video>
         </a>
       </div>
     </div>
@@ -246,7 +246,7 @@ div.gamedesc {
         </a>
         <a href='/assets/video/thesis/thesis_tex_streaming.webm'>
           <img class='thumb' src='/assets/video/thesis/thesis_tex_streaming.png' alt='Thesis'/>
-          <video src="/assets/video/thesis/thesis_tex_streaming.webm" alt="Thesis"/>
+          <video src="/assets/video/thesis/thesis_tex_streaming_small.webm" alt="Thesis"></video>
         </a>
       </div>
     </div>
@@ -317,7 +317,7 @@ div.gamedesc {
         </a>
         <a href='/assets/video/wavescape/wv_gameplay.webm'>
           <img class='thumb' src="/assets/video/wavescape/wv_gameplay_thumb.png" alt="Wavescape"/>
-          <video src="/assets/video/wavescape/wv_gameplay_small.webm" alt="Wavescape"/>
+          <video src="/assets/video/wavescape/wv_gameplay_small.webm" alt="Wavescape"></video>
         </a>
       </div>
     </div>
@@ -370,17 +370,45 @@ div.gamedesc {
           <img src="/assets/img/blockster/blockster_featured_small.png" alt="Blockster"/>
         </a>
         <a href='/assets/img/blockster/blockster_1.png'>
-          <img src="/assets/img/blockster/blockster_1_small.png" alt="Wavescape"/>
+          <img src="/assets/img/blockster/blockster_1_small.png" alt="Blockster"/>
         </a>
         <a href='/assets/img/blockster/blockster_4.png'>
-          <img src="/assets/img/blockster/blockster_4_small.png" alt="Wavescape"/>
+          <img src="/assets/img/blockster/blockster_4_small.png" alt="Blockster"/>
         </a>
         <a href='/assets/img/blockster/blockster_2.png'>
-          <img src="/assets/img/blockster/blockster_2_small.png" alt="Wavescape"/>
+          <img src="/assets/img/blockster/blockster_2_small.png" alt="Blockster"/>
         </a>
         <a href='/assets/video/blockster/blockster_gameplay.webm'>
-          <img class='thumb' src="/assets/video/blockster/blockster_gameplay_thumb.png" alt="Wavescape"/>
-          <video src="/assets/video/blockster/blockster_gameplay_small.webm" alt="Wavescape"/>
+          <img class='thumb' src="/assets/video/blockster/blockster_gameplay_thumb.png" alt="Blockster"/>
+          <video src="/assets/video/blockster/blockster_gameplay_small.webm" alt="Blockster"></video>
+        </a>
+      </div>
+    </div>
+  </li>
+  <li style='background: rgba(220, 220, 220, 1.0)'>
+    <div class='game'>
+      <div class='gamedesc' style='align-self: flex-start'>
+        <h1>Automaton</h1>
+        <h3>Roles: programmer</h3>
+        <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://www.youtube.com/watch?v=RkuEjaRWawE">trailer</a></p>
+        <p>Automaton is a game made in 48 hours for Global Game Jam 2020 by a team of 4 people, available for
+        download <a href="https://globalgamejam.org/2020/games/roaming-mender-9">here</a>.</p>
+        <p>It's a text-based, Oregon Trail-like adventure settled in the far future. Play as a roaming automaton,
+        tredding the land and attempting to mend itself, the humans it comes across and the planet.</p>
+        <p>The game is event-based and all events are written in text files with a simple format,
+        so the game can be easily modded without the need of recompiling the game.</p>
+        <p>I was the main programmer on the game, wrote the events parser and contributed some ideas to the game concept.</p>
+      </div>
+      <div class='game-imgs'>
+        <a href='/assets/img/automaton/automaton_gameplay.png'>
+          <img src="/assets/img/automaton/automaton_gameplay_small.png" alt="Automaton"/>
+        </a>
+        <a href='/assets/img/automaton/automaton_title_screen.png'>
+          <img src="/assets/img/automaton/automaton_title_screen_small.png" alt="Automaton"/>
+        </a>
+        <a href='/assets/video/automaton/automaton_gameplay.webm'>
+          <img class='thumb' src="/assets/video/automaton/automaton_gameplay_thumb.png" alt="Automaton"/>
+          <video src="/assets/video/automaton/automaton_gameplay_small.webm" alt="Automaton"></video>
         </a>
       </div>
     </div>
