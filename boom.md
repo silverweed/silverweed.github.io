@@ -46,15 +46,22 @@ However, as most of the code is there, I figured in the meantime I could work on
 <h3 id='downloads'>DOWNLOADS</h3>
 
 <ul>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.5.0_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.5.0_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.5.0_osx.zip'>BOOM Remake (OSX)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.5.1_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.5.1_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.5.1_osx.zip'>BOOM Remake (OSX)</a></li>
 </ul>
 
 <h3 id='changelog'>CHANGELOG</h3>
 
 <dl class='changelog'>
-  <dt><strong>1.5.0 (current)</strong></dt>
+  <dt><strong>1.5.1 (current)</strong></dt>
+  <dd>
+    <ul>
+      <li>Fixed the game failing to save if the saves directory is missing</li>
+      <li>The game is now built with MSVC, rather than MinGW, on Windows</li>
+    </ul>
+  </dd>
+  <dt>1.5.0</dt>
   <dd>
     <ul>
       <li>Bumped SFML version to 2.5</li>
