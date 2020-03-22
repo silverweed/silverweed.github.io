@@ -92,10 +92,9 @@ div.gamedesc {
         <p>As a <strong>programmer</strong>, I basically wrote the entire thing. Lifish uses a custom C++
         engine leveraging the <a href="https://www.sfml-dev.org/">SFML</a> multimedia library for
         multi-platform deployment (the game runs on Linux, Mac, Windows and FreeBSD).</p>
-        <p>As a <strong>designer</strong>, I'm creating the new levels, bosses, enemies, attacks and
-        powerups that make Lifish more than just a clone of the original game.</p>
-        <p>Lifish is still under development, mainly on the graphical side, as the current "programmer art"
-        is going to be replaced by the final version (which is being made by another person).</p>
+        <p>Lifish development is in hiatus, but I created a fork named 
+        <a href="https://silverweed.github.io/boom/">BOOM: Remake</a> which is a 
+        faithful recreation of the original <em>BOOM</em> available for free for Linux, Windows and Mac.</p>
       </div>
       <div class='game-imgs'>
         <a href='/assets/img/lifish/lifish_screen1.png'><img src="/assets/img/lifish/lifish_screen1.png" alt="Lifish"/></a>
