@@ -43,18 +43,38 @@ However, as most of the code is there, I figured in the meantime I could work on
 
 <hr>
 
+<h3 id='known_issues'>KNOWN ISSUES</h3>
+<ul>
+  <li>Input does not work on OSX Catalina <a href="https://github.com/silverweed/lifish/issues/6#issuecomment-585331958">unless global event capture is allowed</a>. This is due to Apple's new security policy and <strong>will not be fixed for the time being</strong>.</li>
+  <li>The app is unsigned, so a warning may be displayed when starting it. This will <strong>not</strong> be fixed either.</li>
+</ul>
+
+<h3 id='utils'>UTILITIES</h3>
+<h4 id='editor'>Level Editor</h4>
+<p>An experimental level editor <a href="https://github.com/silverweed/lifish-edit/releases">is available</a>, currently in packaged version for Mac only. It can be compiled for Linux as well, but unfortunately there is no Windows support, due to the Crystal programming language not supporting it.</p>
+
+<h4 id='levelgen'>Random Level Generator</h4>
+<p>There is also a <a href="https://github.com/silverweed/boomlevelgen">random level generator</a> available, working for both the original BOOM and BOOM Remake. It requires Python 3 to run.</p>
+
 <h3 id='downloads'>DOWNLOADS</h3>
 
 <ul>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.5.1_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.5.1_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.5.1_osx.zip'>BOOM Remake (OSX)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.5.2_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.5.2_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.5.2_osx.zip'>BOOM Remake (OSX)</a></li>
 </ul>
 
 <h3 id='changelog'>CHANGELOG</h3>
 
 <dl class='changelog'>
-  <dt><strong>1.5.1 (current)</strong></dt>
+  <dt><strong>1.5.2 (current)</strong></dt>
+  <dd>
+    <ul>
+      <li>Added in-game timer overlay to preferences (mainly for speedrun purposes)</li>
+      <li>Added Italian version</li>
+    </ul>
+  </dd>
+  <dt>1.5.1</dt>
   <dd>
     <ul>
       <li>Fixed the game failing to save if the saves directory is missing</li>
