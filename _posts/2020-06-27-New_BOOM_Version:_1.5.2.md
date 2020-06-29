@@ -1,5 +1,5 @@
 ---
-title: New BOOM Version: 1.5.2
+title: 'New BOOM Version: 1.5.2'
 author: silverweed
 layout: single
 tags:  
