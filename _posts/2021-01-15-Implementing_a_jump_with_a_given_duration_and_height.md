@@ -18,9 +18,7 @@ This is slightly different from the usual approach of character movement, where 
 
 This problem looks easy at a first glance. One may think: "I'll just use the law of kinematic motion":
 
-```
-y(t) = y0 + v0 * t + 1/2 g t^2
-```
+![eq1](https://silverweed.github.io/assets/img/posts/2021-01-15/eq1.png)
 
 "and solve for `t = T/2` and put `y(T/2) = H`!"
 
@@ -30,55 +28,31 @@ In our case, the given parameters are *H* and *T*. The proper way to approach th
 
 The first boundary condition is the fact that we are starting the jump from ground level (we may actually be starting from any height, but all we want from our jump is that it requires time *T* to be back to the starting height, so we can just set our reference frame so that the starting height is y = 0):
 
-```
-y(t = 0) = 0    // (1)
-```
+![eq2](https://silverweed.github.io/assets/img/posts/2021-01-15/eq2.png)
 
 Second, we want to be back to the ground level at time *T*:
 
-```
-y(t = T) = 0    // (2)
-```
+![eq3](https://silverweed.github.io/assets/img/posts/2021-01-15/eq3.png)
 
 The system consisting of the differential equation `y''(t) = a`, (1) and (2) gives us a family of parabulas as its solution:
 
-```
-y(t) = a/2 t^2 + b t + c
-
-// (1) => c = 0
-y(t) = a/2 t^2 + b t
-
-// (2) => a/2 T^2 + b T = 0 => (if T != 0) b = -aT/2
-y(t) = at(t - T)/2
-```
+![eq4](https://silverweed.github.io/assets/img/posts/2021-01-15/eq4.png)
 
 Now, to find *a*, we need to add another boundary condition that encodes our request that the jump height is *H*:
 
-```
-y(T/2) = H     // (3)
-```
+![eq5](https://silverweed.github.io/assets/img/posts/2021-01-15/eq5.png)
 
 We know that *T/2* is the time where the jump is at its apex because y(t) is a parabula, so we impose that that point is at y = H. This gives us:
 
-```
-H = aT/2 (-T/2)/2 => a = -8H/T^2
-```
+![eq6](https://silverweed.github.io/assets/img/posts/2021-01-15/eq6.png)
 
 Since *a* represents our gravity, let's rename it *g*. We can now derive the starting jump speed *v0* by using the primitive of our initial differential equation: 
 
-```
-y'(t) = at + b
-
-// Recall that b = -aT/2 = -gT/2
-v0 = y'(0) = -gT/2
-```
+![eq7](https://silverweed.github.io/assets/img/posts/2021-01-15/eq7.png)
 
 So, to recap: given a parabolic jump with given duration T and height H, we can derive the required inputs for the equation of motion (i.e. gravity and initial velocity) like this: 
 
-```
-g = -8H/T^2
-v0 = -gT/2
-```
+![eq8](https://silverweed.github.io/assets/img/posts/2021-01-15/eq8.png)
 
 ### Godot example
 
