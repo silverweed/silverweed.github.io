@@ -7,9 +7,11 @@ tags:
   - videogames  
 ---
 
+**DISCLAIMER**: sorry for the ugly formulas, I'll work on integrating LaTeX to my blog and update this post to make them look better.
+
 This will be an oddly specific blog post, but I hope it can be of use to someone.
 
-Today, a friend of mine asked me for a little help on a gamedev problem; it was one of those problems that look super easy at first, then hard and then easy again once you solved it.
+Some time ago, a friend of mine asked me for a little help on a gamedev problem; it was one of those problems that look super easy at first, then hard and then easy again once you solved it.
 The problem was this: *given a "kinematic" character, how do I make it jump such that it will reach height H and land in time T?*
 
 This is slightly different from the usual approach of character movement, where usually one defines the jump force (or velocity) and the gravity affecting the character. Here we want to *derive* those variables from our own conditions: the jump must last exactly *T* seconds and reach a height of exactly *H*. (Where "exactly" here actually means "must be as close as possible to").
