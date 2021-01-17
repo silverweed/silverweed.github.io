@@ -56,7 +56,7 @@ Since *a* represents our gravity, let's rename it *g*. We can now derive the sta
 
 ![eq7](https://silverweed.github.io/assets/img/posts/2021-01-15/eq7.png)
 
-So, to recap: given a parabolic jump with given duration T and height H, we can derive the required inputs for the equation of motion (i.e. gravity and initial velocity) like this: 
+So, we have derived the same solutions as above: 
 
 ![eq8](https://silverweed.github.io/assets/img/posts/2021-01-15/eq8.png)
 
