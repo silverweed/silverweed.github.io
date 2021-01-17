@@ -11,22 +11,28 @@ tags:
 
 This will be an oddly specific blog post, but I hope it can be of use to someone.
 
-Some time ago, a friend of mine asked me for a little help on a gamedev problem; it was one of those problems that look super easy at first, then hard and then easy again once you solved it.
+Some time ago, a friend of mine asked me for a little help on a gamedev problem.
 The problem was this: *given a "kinematic" character, how do I make it jump such that it will reach height H and land in time T?*
 
 This is slightly different from the usual approach of character movement, where usually one defines the jump force (or velocity) and the gravity affecting the character. Here we want to *derive* those variables from our own conditions: the jump must last exactly *T* seconds and reach a height of exactly *H*. (Where "exactly" here actually means "must be as close as possible to").
 
-This problem looks easy at a first glance. One may think: "I'll just use the law of kinematic motion":
+This problem can be solved in 2 ways. One way is to use the equation of motion:
 
 ![eq1](https://silverweed.github.io/assets/img/posts/2021-01-15/eq1.png)
 
-"and solve for `t = T/2` and put `y(T/2) = H`!"
+We compute the equation for *t = T/2* and for *t = T*, imposing that *y* is *H* in the first case and 0 in the second case. We also impose that *y0* is 0 since we're starting the jump from ground level (we may actually be starting from any height, but all we want from our jump is that it requires time *T* to be back to the starting height, so we can just set our reference frame so that the starting height is 0):
 
-However, this is not gonna work because that equation is valid only if *t* is the *independent* variable, *y* the *dependent* variable and *y0*, *v0* and *g* are given parameters.
+![eq9](https://silverweed.github.io/assets/img/posts/2021-01-15/eq9.png)
 
-In our case, the given parameters are *H* and *T*. The proper way to approach this problem is not starting from the already-derived equation of motion, but from its parent: the differential equation *y'' = a*. Then, all we need to do is adding the boundary conditions that encode our requirements and solve it.
+Then we solve the system for *v0* and *g*. This yields the solution we're looking for:
 
-The first boundary condition is the fact that we are starting the jump from ground level (we may actually be starting from any height, but all we want from our jump is that it requires time *T* to be back to the starting height, so we can just set our reference frame so that the starting height is y = 0):
+![eq8](https://silverweed.github.io/assets/img/posts/2021-01-15/eq8.png)
+
+### Alternative approach
+
+Another way to approach this problem is not starting from the already-derived equation of motion, but from its parent: the differential equation *y'' = a*. Then, all we need to do is adding the boundary conditions that encode our requirements and solve it.
+
+The first boundary condition is the fact that we are defining the starting height as our *y = 0*.
 
 ![eq2](https://silverweed.github.io/assets/img/posts/2021-01-15/eq2.png)
 
@@ -34,7 +40,7 @@ Second, we want to be back to the ground level at time *T*:
 
 ![eq3](https://silverweed.github.io/assets/img/posts/2021-01-15/eq3.png)
 
-The system consisting of the differential equation `y''(t) = a`, (1) and (2) gives us a family of parabulas as its solution:
+The system consisting of the differential equation *y''(t) = a*, (1) and (2) gives us a family of parabulas as its solution:
 
 ![eq4](https://silverweed.github.io/assets/img/posts/2021-01-15/eq4.png)
 
