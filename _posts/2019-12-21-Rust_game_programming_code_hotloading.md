@@ -243,7 +243,7 @@ because it's pretty trivial (`std::fs` is your friend), just know you'll need to
 (and maybe OSX too).
 
 ---
-We can finally admire the result of our work!
+We can finally admire the result of our work! (I'm running [cargo watch](https://github.com/passcod/cargo-watch) in the background, otherwise you need to manually recompile after you make the changes)
 
 <figure>
   <a href='/assets/video/ecs/hotloading_code.webm'>
