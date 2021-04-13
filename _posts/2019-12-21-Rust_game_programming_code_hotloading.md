@@ -157,7 +157,7 @@ pub extern "C" fn game_init<'a>() -> *mut Game_State<'a> {
     /// Something conceptually like this:
 
     // Create the game state
-    pub game_state: Game_State = internal_create_game_state();
+    let game_state: Game_State = internal_create_game_state();
 
     // Turn game_state into a manually-managed pointer
     Box::into_raw(Box::new(game_state))
