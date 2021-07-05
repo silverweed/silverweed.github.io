@@ -45,9 +45,9 @@ div.gamedesc {
   <li>
     <a href="/boom/">
       <div class='game'>
-        <img src="/assets/img/boom/boom_screen1.png" alt="BOOM"/>
+        <img src="/assets/img/boom/boom_screen1.png" alt="BOOM Remake"/>
         <div class='gamedesc'>
-          <h2>BOOM</h2>
+          <h2>BOOM Remake</h2>
           <p>A remake of the original MacOS game "BOOM" by Factor Software that inspired Lifish.</p>
         </div>
       </div>
