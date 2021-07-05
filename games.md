@@ -37,7 +37,7 @@ div.gamedesc {
         <img src="/assets/img/lifish/lifish_screen1.png" alt="Lifish"/>
         <div class='gamedesc'>
           <h2>Lifish</h2>
-          <p>An old-style arcade game about bombing aliens. Currently under development.</p>
+          <p>An old-style arcade game about bombing aliens. Currently on hiatus, but served as the base for BOOM Remake.</p>
         </div>
       </div>
     </a>
@@ -48,7 +48,7 @@ div.gamedesc {
         <img src="/assets/img/boom/boom_screen1.png" alt="BOOM"/>
         <div class='gamedesc'>
           <h2>BOOM</h2>
-          <p>A Lifish mod that faithfully recreates the original MacOS game "BOOM" by Factor Software that inspired Lifish.</p>
+          <p>A remake of the original MacOS game "BOOM" by Factor Software that inspired Lifish.</p>
         </div>
       </div>
     </a>
