@@ -61,15 +61,23 @@ However, as most of the code is there, I figured in the meantime I could work on
 <h3 id='downloads'>DOWNLOADS</h3>
 
 <ul>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.5.2_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.5.2_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.5.2_osx.zip'>BOOM Remake (OSX)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.5.3_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.5.3_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.5.3_osx.zip'>BOOM Remake (OSX)</a></li>
 </ul>
 
 <h3 id='changelog'>CHANGELOG</h3>
 
 <dl class='changelog'>
-  <dt><strong>1.5.2 (current)</strong></dt>
+  <dt><strong>1.5.3 (current)</strong></dt>
+  <dd>
+    <ul>
+      <li>Added high scores</li>
+      <li>Fixed enemies never changing direction when taking a teleporter, causing them to possibly get stuck between two</li>
+      <li>Fixed enemies doing their normal yell while morphed into aliens</li>
+    </ul>
+  </dd>
+  <dt>1.5.2</dt>
   <dd>
     <ul>
       <li>Added in-game timer overlay to preferences (mainly for speedrun purposes)</li>
