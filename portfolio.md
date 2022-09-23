@@ -185,7 +185,7 @@ div.gamedesc {
         <h3>Roles: gameplay, shader and tool programmer</h3>
         <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://www.youtube.com/watch?v=cNoHH2No_1M&index=60&list=PL4QF7lP4PZkBYflnk-bkJd_fs57Exw-YN">trailer</a></p>
         <p>Hacknid is a game made in 48 hours for Global Game Jam 2018 by a team of 4 people, available for
-        download <a href="https://globalgamejam.org/2018/games/hacknid">here</a>. You can also 
+        download <a href="https://ggj.s3.amazonaws.com/games/2018/01/146096/exec/58jXE/Hacknid.zip">here</a>. You can also 
         <a href="https://silverweed.github.io/hacknid-play/">play it in your browser</a> (you'll need mouse+keyboard or
         a joystick).</p>
         <p>It's a 2D puzzle/stealth game for PC where you must get to the end of the level by controlling not only
@@ -290,7 +290,8 @@ div.gamedesc {
         <h3>Roles: programmer, designer</h3>
         <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://www.youtube.com/watch?v=ap_coff-fCg">trailer</a></p>
         <p>Wavescape is a game made in 48 hours for Global Game Jam 2017 by a team of 6 people, available for
-        download <a href="https://globalgamejam.org/2017/games/wavescape-0">here</a>.</p>
+        download <a href="https://ggj.s3.amazonaws.com/games/2017/01/22/1729/wavescape_win_linux.zip">here</a> (source available
+        <a href="https://github.com/silverweed/ggj17">here</a>).</p>
         <p>It's a 2D puzzle game for Windows and Linux where you control the wave function of an ion
         trapped in a quantum computer. The ion follows its wave: change its shape to make it avoid
         the obstacles!</p>
@@ -389,8 +390,8 @@ div.gamedesc {
         <h1>Automaton</h1>
         <h3>Roles: programmer</h3>
         <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://www.youtube.com/watch?v=RkuEjaRWawE">trailer</a></p>
-        <p>Automaton is a game made in 48 hours for Global Game Jam 2020 by a team of 4 people, available for
-        download <a href="https://globalgamejam.org/2020/games/roaming-mender-9">here</a>.</p>
+        <p>Automaton is a game made in 48 hours for Global Game Jam 2020 by a team of 4 people, whose source is available
+        <a href="https://github.com/silverweed/ggj20">here</a>.</p>
         <p>It's a text-based, Oregon Trail-like adventure settled in the far future. Play as a roaming automaton,
         tredding the land and attempting to mend itself, the humans it comes across and the planet.</p>
         <p>The game is event-based and all events are written in text files with a simple format,
