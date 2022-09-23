@@ -71,7 +71,6 @@ div.gamedesc {
       <div class="gamedesc right">
         <!-- Hi, mom! I'm a game! -->
         <h1>About me</h1>
-        <p>I'm Giacomo Parolini.</p>
         <p>I like science, especially Physics.</p>
         <p>I like games, especially videogames.</p>
         <p>I like programming, especially game programming.</p>
