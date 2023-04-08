@@ -61,15 +61,26 @@ However, as most of the code is there, I figured in the meantime I could work on
 <h3 id='downloads'>DOWNLOADS</h3>
 
 <ul>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.5.3_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.5.3_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.5.3_osx.zip'>BOOM Remake (OSX)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.6_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.6_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.5.3_osx.zip'>BOOM Remake (OSX)</a> [v1.5.3]</li>
 </ul>
 
 <h3 id='changelog'>CHANGELOG</h3>
 
 <dl class='changelog'>
-  <dt><strong>1.5.3 (current)</strong></dt>
+  <dt><strong>1.6 (current)</strong></dt>
+  <dd>
+    <ul>
+      <li>Added German language</li>
+      <li>Fixed screen asking for Player 2 high score when they're not playing</li>
+      <li>Shortened shield duration when being hit by a bomb. Now being hit by a bomb deals about 6 hearts of damage rather than ~3 and a half. This is closer to how the original BOOM works</li>
+      <li>Tweaked bonuses probabilities to more closely resemble that of the original game</li>
+      <li>Fixed music not playing after loading a game</li>
+      <li>Distributing points after a level now takes less time (more similar to the original game)</li>
+    </ul>
+  </dd>
+  <dt>1.5.3</dt>
   <dd>
     <ul>
       <li>Added high scores</li>
