@@ -412,6 +412,30 @@ div.gamedesc {
       </div>
     </div>
   </li>
+  <li style='background: rgba(210, 210, 210, 1.0)'>
+    <div class='game'>
+      <div class='gamedesc' style='align-self: flex-start'>
+        <h1>Inle Engine</h1>
+        <h3>Roles: programmer, designer</h3>
+        <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://github.com/silverweed/ecsde">source</a></p>
+        <p>It features an OpenGL-based renderer, simple 2D collisions based on impulse resolution, data and code hot-reloading and various debugging facilities, including a built-in tracing profiler and a console with autocompletion and better user input handling than Unreal's :-)</p>
+        <p>It was built with as few dependencies as possible, the biggest dependency being SFML for windowing. It runs on Linux and Windows.</p>
+        <p>The engine is still in development, with the goal of using it in an actual game at some point.</p>
+      </div>
+      <div class='game-imgs'>
+        <a href='/assets/img/inle/inle1.png'>
+          <img src="/assets/img/inle/inle1_small.png" alt="Inle"/>
+        </a>
+        <a href='/assets/img/inle/inle_console.png'>
+          <img src="/assets/img/inle/inle_console_small.png" alt="In-game console in Inle engine"/>
+        </a>
+        <a href='/assets/video/inle/inle_prof.mp4'>
+          <img class='thumb' src="/assets/video/inle/inle_prof_small.png" alt="Profiling tools in Inle engine"/>
+          <video src="/assets/video/inle/inle_prof_small.webm" alt="Profiling tools in Inle engine"></video>
+        </a>
+      </div>
+    </div>
+  </li>
 </ul>
 
 <script>
