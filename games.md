@@ -86,4 +86,15 @@ div.gamedesc {
       </div>
     </a>
   </li>
+  <li>
+    <a href="https://silverweed91.itch.io/dr1ft">
+      <div class='game'>
+        <img src="/assets/img/dr1ft/dr1ft_thumbnail.png" alt="Dr1ft"/>
+        <div class='gamedesc'>
+          <h2>Dr1ft</h2>
+          <p>A super small game (made in 24 hours) inspired by Initial D and synthwave. Drift your wave through endless cars and relish the sunset.</p>
+        </div>
+      </div>
+    </a>
+  </li>
 </ul>
