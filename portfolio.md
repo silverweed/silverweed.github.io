@@ -115,6 +115,7 @@ div.gamedesc {
     <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
         <h1>Haru</h1>
+        <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://codeberg.org/silverweed/haru">source</a></p>
         <p>A rendering engine I'm writing in my free time, written in C++ and working on Linux and Windows.</p>
         <p>Uses GLFW for windowing and OpenGL 4.6 as a graphics backend.</p>
         <p>It's still early in development, but it currently features: (partial) GLTF models loading, multiple viewports and cameras, PBR, HDR, frustum culling using spheres, AABB and OBB, custom memory allocators, ImGui-based user interface and various profiling views. It's too early for it to have a proper rendering pipeline, but my intention is to start with classic forward and then implement a more modern approach based on visibility buffer.</p>
