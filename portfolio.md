@@ -63,13 +63,18 @@ div.gamedesc {
 .gamedesc.right {
   justify-content: flex-end;
 }
+.a {
+  background: rgba(210, 210, 210, 1.0);
+}
+.b {
+  background: rgba(220, 220, 220, 1.0);
+}
 </style>
 
 <ul class='gamelist'>
   <li style='background: rgba(250, 250, 250, 1.0)'>
     <div class="game">
       <div class="gamedesc right">
-        <!-- Hi, mom! I'm a game! -->
         <h1>About me</h1>
         <p>I like science, especially Physics.</p>
         <p>I like games, especially videogames.</p>
@@ -78,10 +83,10 @@ div.gamedesc {
       </div>
     </div>
   </li>
-  <li style='background: rgba(210, 210, 210, 1.0)'>
+  <li class='a'>
     <div class='game'>
       <div class='gamedesc'>
-        <h1>Lifish</h1>
+        <h1>Lifish / BOOM Remake</h1>
         <h3>Roles: programmer, designer</h3>
         <p>Lifish was born in 2015 as a free software clone of an old Mac game called <em>BOOM</em>, 
         a "Bomberman meets Doom" arcade game. The source code is available
@@ -106,19 +111,67 @@ div.gamedesc {
       </div>
     </div>
   </li>
-  <li style='background: rgba(220, 220, 220, 1.0)'>
+  <li class='b'>
+    <div class='game'>
+      <div class='gamedesc' style='align-self: flex-start'>
+        <h1>Haru</h1>
+        <p>A rendering engine I'm writing in my free time, written in C++ and working on Linux and Windows.</p>
+        <p>Uses GLFW for windowing and OpenGL 4.6 as a graphics backend.</p>
+        <p>It's still early in development, but it currently features: (partial) GLTF models loading, multiple viewports and cameras, PBR, HDR, frustum culling using spheres, AABB and OBB, custom memory allocators, ImGui-based user interface and various profiling views. It's too early for it to have a proper rendering pipeline, but my intention is to start with classic forward and then implement a more modern approach based on visibility buffer.</p>
+      </div>
+      <div class='game-imgs'>
+        <a href='/assets/img/haru/haru.png'>
+          <img src="/assets/img/haru/haru_small.png" alt="Yes, I know, the Sponza again...I'll find some more original test models in the future, promised!"/>
+        </a>
+        <a href='/assets/img/haru/haru_viewports.webm'>
+          <img class="thumb" src="/assets/haru/haru_viewports_small.png" alt="Showcasing multiple viewports and debug visualizations."/>
+        </a>
+      </div>
+    </div>
+  </li>
+  <li class='a'>
+    <div class='game'>
+      <div class='gamedesc' style='align-self: flex-start'>
+        <h1>Master Thesis: Distributed Rendering in Vulkan</h1>
+        <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="/assets/docs/distributed_rendering_in_vulkan.pdf">paper</a></p>
+        <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://github.com/silverweed/thesis">source</a></p>
+        <p>My Master Thesis project, written in C++14 using the Vulkan API. Runs on Linux and Windows.</p>
+        <p>This project explores the concept of a “distributed rendering engine” for videogames with the aim to split the graphics
+        pipeline between a server and a client. My goal is to create a hybrid model between  the "classic heavyweight
+        client" model (where the client makes all the processing needed for rendering) and the more recent 
+        "streaming" model
+        (where the server does all the processing and sends the stream of rendered frames to the client).</p>
+        <p>In my project, models, textures and shaders live on the server, which does most of the application-stage
+        work. Then, rather than rendering models and sending frames to the client, it sends preprocessed geometry data
+        to it, which in turn runs all the following pipeline stages.</p>
+        <p>The rendering pipeline is a classic G-Buffer-based deferred pipeline.</p>
+      </div>
+      <div class='game-imgs'>
+        <a href='/assets/img/thesis/thesis1.png'>
+          <img src="/assets/img/thesis/thesis1_small.png" alt="Thesis"/>
+        </a>
+        <a href='/assets/img/thesis/thesis2.png'>
+          <img src="/assets/img/thesis/thesis2_small.png" alt="Thesis"/>
+        </a>
+        <a href='/assets/video/thesis/thesis_tex_streaming.webm'>
+          <img class='thumb' src='/assets/video/thesis/thesis_tex_streaming.png' alt='Thesis'/>
+          <video src="/assets/video/thesis/thesis_tex_streaming_small.webm" alt="Thesis"></video>
+        </a>
+      </div>
+    </div>
+  </li>
+  <li class='b'>
     <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
         <h1>Gadget</h1>
-        <p>An ongoing "toy" rendering engine I'm doing in my free time as a way to get a solid grasp on OpenGL and graphics
-        programming. My plan is to also integrate it with a physics engine in the future.</p>
-        <p>Gadget is written in D and uses OpenGL + SFML for windowing. It's currently only being tested on Linux.</p>
+        <p>My first toy rendering engine, written (in a couple of months) as a way to get 
+	a solid grasp on OpenGL and graphics programming.</p>
+        <p>Gadget is written in D and uses OpenGL + SFML for windowing. It's only been tested on Linux.</p>
         <p>Its source code is available <a href="https://github.com/silverweed/gadget">on Github</a>.</p>
-        <p>Currently, after a couple of months of work, Gadget features: basic primitive drawing, instanced drawing,
+        <p>Features basic primitive drawing, instanced drawing,
         texturing, diffuse/specular/normal maps, ambient/directional/multiple point lights, 
 	Blinn-Phong shading, shadow mapping and skybox drawing.</p>
-        <p>Work on Gadget is currently on hiatus due to me working on a similar project for my Master thesis, 
-        but you can read a couple of articles about it <a href="https://silverweed.github.io/tags/#gadget">on my blog</a>.</p>
+        <p>I wrote a couple of posts about Gadget <a href="https://silverweed.github.io/tags/#gadget">on my blog</a>.</p>
       </div>
       <div class='game-imgs'>
         <a href='/assets/img/gadget/cubes.png'>
@@ -138,7 +191,7 @@ div.gamedesc {
       </div>
     </div>
   </li>
-  <li style='background: rgba(210, 210, 210, 1.0)'>
+  <li class='a'>
     <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
         <h1>GIVE - I Guardiani Del Corpo</h1>
@@ -178,7 +231,7 @@ div.gamedesc {
       </div>
     </div>
   </li>
-  <li style='background: rgba(220, 220, 220, 1.0)'>
+  <li class='b'>
     <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
         <h1>Hacknid</h1>
@@ -219,38 +272,7 @@ div.gamedesc {
       </div>
     </div>
   </li>
-  <li style='background: rgba(210, 210, 210, 1.0)'>
-    <div class='game'>
-      <div class='gamedesc' style='align-self: flex-start'>
-        <h1>Master Thesis: Distributed Rendering in Vulkan</h1>
-        <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="/assets/docs/distributed_rendering_in_vulkan.pdf">paper</a></p>
-        <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://github.com/silverweed/thesis">source</a></p>
-        <p>My Master Thesis project, written in C++14 using the Vulkan API. Runs on Linux and Windows.</p>
-        <p>This project explores the concept of a “distributed rendering engine” for videogames with the aim to split the graphics
-        pipeline between a server and a client. My goal is to create a hybrid model between  the "classic heavyweight
-        client" model (where the client makes all the processing needed for rendering) and the more recent 
-        "streaming" model
-        (where the server does all the processing and sends the stream of rendered frames to the client).</p>
-        <p>In my project, models, textures and shaders live on the server, which does most of the application-stage
-        work. Then, rather than rendering models and sending frames to the client, it sends preprocessed geometry data
-        to it, which in turn runs all the following pipeline stages.</p>
-        <p>The rendering pipeline is a classic G-Buffer-based deferred pipeline.</p>
-      </div>
-      <div class='game-imgs'>
-        <a href='/assets/img/thesis/thesis1.png'>
-          <img src="/assets/img/thesis/thesis1_small.png" alt="Thesis"/>
-        </a>
-        <a href='/assets/img/thesis/thesis2.png'>
-          <img src="/assets/img/thesis/thesis2_small.png" alt="Thesis"/>
-        </a>
-        <a href='/assets/video/thesis/thesis_tex_streaming.webm'>
-          <img class='thumb' src='/assets/video/thesis/thesis_tex_streaming.png' alt='Thesis'/>
-          <video src="/assets/video/thesis/thesis_tex_streaming_small.webm" alt="Thesis"></video>
-        </a>
-      </div>
-    </div>
-  </li>
-  <li style='background: rgba(220, 220, 220, 1.0)'>
+  <li class='a'>
     <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
         <h1>qU</h1>
@@ -284,7 +306,7 @@ div.gamedesc {
       </div>
     </div>
   </li>
-  <li style='background: rgba(210, 210, 210, 1.0)'>
+  <li class='b'>
     <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
         <h1>Wavescape</h1>
@@ -322,7 +344,7 @@ div.gamedesc {
       </div>
     </div>
   </li>
-  <li style='background: rgba(220, 220, 220, 1.0)'>
+  <li class='a'>
     <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
         <h1>Realtime Graphics Programming project [unnamed]</h1>
@@ -353,7 +375,7 @@ div.gamedesc {
       </div>
     </div>
   </li>
-  <li style='background: rgba(210, 210, 210, 1.0)'>
+  <li class='b'>
     <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
         <h1>Blockster</h1>
@@ -385,7 +407,7 @@ div.gamedesc {
       </div>
     </div>
   </li>
-  <li style='background: rgba(220, 220, 220, 1.0)'>
+  <li class='a'>
     <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
         <h1>Automaton</h1>
@@ -413,7 +435,7 @@ div.gamedesc {
       </div>
     </div>
   </li>
-  <li style='background: rgba(210, 210, 210, 1.0)'>
+  <li class='b'>
     <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
         <h1>Inle Engine</h1>
