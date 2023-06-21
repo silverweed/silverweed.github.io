@@ -123,7 +123,7 @@ div.gamedesc {
         <a href='/assets/img/haru/haru.png'>
           <img src="/assets/img/haru/haru_small.png" alt="Yes, I know, the Sponza again...I'll find some more original test models in the future, promised!"/>
         </a>
-        <a href='/assets/img/haru/haru_viewports.webm'>
+        <a href='/assets/img/haru/haru_viewports.png'>
           <img class="thumb" src="/assets/haru/haru_viewports_small.png" alt="Showcasing multiple viewports and debug visualizations."/>
         </a>
       </div>
