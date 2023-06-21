@@ -419,7 +419,7 @@ div.gamedesc {
         <h3>Roles: programmer, designer</h3>
         <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://github.com/silverweed/ecsde">source</a></p>
         <p>Inle is a 2D toy game engine based on ECS and written in Rust.</p>
-        <p>It features an OpenGL-based renderer, simple 2D collisions based on impulse resolution, data and code hot-reloading and various debugging facilities, including a built-in tracing profiler and a console with autocompletion and better user input handling than Unreal's :-)</p>
+        <p>It features an OpenGL-based renderer, MSDF font rendering, simple 2D collisions based on impulse resolution, data and code hot-reloading and various debugging facilities, including a built-in tracing profiler and a console with autocompletion and better user input handling than Unreal's :-)</p>
         <p>It was built with as few dependencies as possible, the biggest dependency being SFML for windowing. It runs on Linux and Windows.</p>
         <p>The engine is still in development, with the goal of using it in an actual game at some point.</p>
       </div>
