@@ -128,6 +128,9 @@ div.gamedesc {
         <a href='/assets/img/haru/haru_viewports.png'>
           <img class="thumb" src="/assets/img/haru/haru_viewports_small.png" alt="Showcasing multiple viewports and debug visualizations."/>
         </a>
+        <a href='/assets/img/haru/haru_lights.png'>
+          <img class="thumb" src="/assets/img/haru/haru_lights_small.png" alt="Rendering about 100 lights"/>
+        </a>
       </div>
     </div>
   </li>
