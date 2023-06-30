@@ -118,7 +118,8 @@ div.gamedesc {
         <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://codeberg.org/silverweed/haru">source</a></p>
         <p>A rendering engine I'm writing in my free time, written in C++ and working on Linux and Windows.</p>
         <p>Uses GLFW for windowing and OpenGL 4.6 as a graphics backend.</p>
-        <p>It's still early in development, but it currently features: (partial) GLTF models loading, multiple viewports and cameras, PBR, HDR, frustum culling using spheres, AABB and OBB, custom memory allocators, ImGui-based user interface and various profiling views. It's too early for it to have a proper rendering pipeline, but my intention is to start with classic forward and then implement a more modern approach based on visibility buffer.</p>
+        <p>It's still early in development, but it currently features: (partial) GLTF models loading, multiple viewports and cameras, PBR, HDR, frustum culling using spheres, AABB and OBB, custom memory allocators, ImGui-based user interface and various profiling views.</p>
+        <p>Haru currently uses a deferred G-Buffer-based rendering pipeline, supporting an intederminate amount of lights through additive blending. My intention is to eventually switch to a visibility buffer approach.</p>
       </div>
       <div class='game-imgs'>
         <a href='/assets/img/haru/haru.png'>
