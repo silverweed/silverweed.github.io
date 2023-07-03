@@ -81,7 +81,7 @@ author:
   about            : "/about_this_blog_(and_its_author)/"
   avatar           : "/assets/img/inle.svg"
   bio              : ""
-  location         : "Italy"
+  location         : 
   email            : "silverweed1991@gmail.com"
   uri              :
   bitbucket        :
@@ -98,14 +98,14 @@ author:
   linkedin         : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  stackoverflow    : 
   steam            :
   tumblr           :
   twitter          :
   vine             :
   weibo            :
   xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  youtube          : 
 
 
 # Reading Files
