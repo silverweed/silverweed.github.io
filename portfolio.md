@@ -118,7 +118,7 @@ div.gamedesc {
         <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://codeberg.org/silverweed/haru">source</a></p>
         <p>A rendering engine I'm writing in my free time, written in C++ and working on Linux and Windows.</p>
         <p>Uses GLFW for windowing and OpenGL 4.6 as a graphics backend.</p>
-        <p>It's still early in development, but it currently features: (partial) GLTF models loading, multiple viewports and cameras, PBR, HDR, frustum culling using spheres, AABB and OBB, custom memory allocators, ImGui-based user interface and various profiling views.</p>
+        <p>It's still early in development, but it currently features: (partial) GLTF models loading, multiple viewports and cameras, PBR, HDR, frustum culling using spheres, AABB and OBB, shadow mapping, custom memory allocators, ImGui-based user interface and various profiling views.</p>
         <p>Haru currently uses a deferred G-Buffer-based rendering pipeline, supporting an intederminate amount of lights through additive blending. My intention is to eventually switch to a visibility buffer approach.</p>
       </div>
       <div class='game-imgs'>
@@ -130,6 +130,9 @@ div.gamedesc {
         </a>
         <a href='/assets/img/haru/haru_lights.png'>
           <img class="thumb" src="/assets/img/haru/haru_lights_small.png" alt="Rendering about 100 lights"/>
+        </a>
+        <a href='/assets/img/haru/haru_shadows.png'>
+          <img class="thumb" src="/assets/img/haru/haru_shadows_small.png" alt="Rendering shadows"/>
         </a>
       </div>
     </div>
