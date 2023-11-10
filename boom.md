@@ -39,7 +39,7 @@ For this reason, in 2015 I decided to start working on a complete remake for the
 
 However, as most of the code is there, I figured in the meantime I could work on a mod that, changing a bit of gameplay logic and borrowing assets from the original game, could effectively become a faithful remake of BOOM! So there it is, a game as close to the original Factor Software's BOOM, playable on Windows, Mac and Linux completely for free!
 
-<b>Note:</b> <em>BOOM: Remake</em> shares most of its codebase with Lifish and, like it, it is free software. The source code is available [here](https://github.com/silverweed/lifish) under the branch <code>boom</code>.
+<b>Note:</b> <em>BOOM: Remake</em> shares most of its codebase with Lifish and, like it, it is free software. The source code is available [here](https://codeberg.org/silverweed/lifish) under the branch <code>boom</code>.
 
 <p class='discl'><b>DISCLAIMER</b>: all graphics and audio assets in the game belong to Factor Software. This game is a remake distributed free of charge with the aim to preserve the original game from obsolescence. If you are the owner of BOOM assets and want this game to be taken down, contact me at silverweed1991@gmail.com</p>
 
@@ -53,10 +53,10 @@ However, as most of the code is there, I figured in the meantime I could work on
 
 <h3 id='utils'>UTILITIES</h3>
 <h4 id='editor'>Level Editor</h4>
-<p>An experimental level editor <a href="https://github.com/silverweed/lifish-edit/releases">is available</a>, currently in packaged version for Mac only. It can be compiled for Linux as well, but unfortunately there is no Windows support, due to the Crystal programming language not supporting it.</p>
+<p>An experimental level editor <a href="https://codeberg.org/silverweed/lifish-edit/tags">is available</a>, currently in packaged version for Mac only. It can be compiled for Linux as well, but unfortunately there is no Windows support, due to the Crystal programming language not supporting it.</p>
 
 <h4 id='levelgen'>Random Level Generator</h4>
-<p>There is also a <a href="https://github.com/silverweed/boomlevelgen">random level generator</a> available, working for both the original BOOM and BOOM Remake. It requires Python 3 to run.</p>
+<p>There is also a <a href="https://codeberg.org/silverweed/boomlevelgen">random level generator</a> available, working for both the original BOOM and BOOM Remake. It requires Python 3 to run.</p>
 
 <h3 id='downloads'>DOWNLOADS</h3>
 

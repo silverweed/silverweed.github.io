@@ -90,7 +90,7 @@ div.gamedesc {
         <h3>Roles: programmer, designer</h3>
         <p>Lifish was born in 2015 as a free software clone of an old Mac game called <em>BOOM</em>, 
         a "Bomberman meets Doom" arcade game. The source code is available
-        <a href="https://github.com/silverweed/lifish">on Github</a>.</p>
+        <a href="https://codeberg.org/silverweed/lifish">here</a>.</p>
         <p>The project later evolved into an original game, preserving most original BOOM mechanics 
         while adding on bosses, enemies and powerups.</p>
         <p>As a <strong>programmer</strong>, I basically wrote the entire thing. Lifish uses a custom C++
@@ -142,7 +142,7 @@ div.gamedesc {
       <div class='gamedesc' style='align-self: flex-start'>
         <h1>Master Thesis: Distributed Rendering in Vulkan</h1>
         <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="/assets/docs/distributed_rendering_in_vulkan.pdf">paper</a></p>
-        <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://github.com/silverweed/thesis">source</a></p>
+        <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://codeberg.org/silverweed/thesis">source</a></p>
         <p>My Master Thesis project, written in C++14 using the Vulkan API. Runs on Linux and Windows.</p>
         <p>This project explores the concept of a “distributed rendering engine” for videogames with the aim to split the graphics
         pipeline between a server and a client. My goal is to create a hybrid model between  the "classic heavyweight
@@ -175,7 +175,7 @@ div.gamedesc {
         <p>My first toy rendering engine, written (in a couple of months) as a way to get 
 	a solid grasp on OpenGL and graphics programming.</p>
         <p>Gadget is written in D and uses OpenGL + SFML for windowing. It's only been tested on Linux.</p>
-        <p>Its source code is available <a href="https://github.com/silverweed/gadget">on Github</a>.</p>
+        <p>Its source code is available <a href="https://codeberg.org/silverweed/gadget">here</a>.</p>
         <p>Features basic primitive drawing, instanced drawing,
         texturing, diffuse/specular/normal maps, ambient/directional/multiple point lights, 
 	Blinn-Phong shading, shadow mapping and skybox drawing.</p>
@@ -322,7 +322,7 @@ div.gamedesc {
         <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://www.youtube.com/watch?v=ap_coff-fCg">trailer</a></p>
         <p>Wavescape is a game made in 48 hours for Global Game Jam 2017 by a team of 6 people, available for
         download <a href="https://ggj.s3.amazonaws.com/games/2017/01/22/1729/wavescape_win_linux.zip">here</a> (source available
-        <a href="https://github.com/silverweed/ggj17">here</a>).</p>
+        <a href="https://codeberg.org/silverweed/ggj17">here</a>).</p>
         <p>It's a 2D puzzle game for Windows and Linux where you control the wave function of an ion
         trapped in a quantum computer. The ion follows its wave: change its shape to make it avoid
         the obstacles!</p>
@@ -365,7 +365,7 @@ div.gamedesc {
         <p>In this project, I wrote the physics simulation system (including the player's movement and the floating of
         objects) as well as most of the assets loading and initialization, which is mostly asynchronous.</p>
         <p>I used <a href="http://maxtaco.github.io/coffee-script/">Iced Coffeescript</a> to ease the writing of the
-        numerous asynchronous parts of the code. The code is available <a href="https://github.com/silverweed/pgtr/">here</a>.</p>
+        numerous asynchronous parts of the code. The code is available <a href="https://codeberg.org/silverweed/pgtr/">here</a>.</p>
       </div>
       <div class='game-imgs'>
         <a href='/assets/img/pgtr/pgtr1.png'>
@@ -422,7 +422,7 @@ div.gamedesc {
         <h3>Roles: programmer</h3>
         <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://www.youtube.com/watch?v=RkuEjaRWawE">trailer</a></p>
         <p>Automaton is a game made in 48 hours for Global Game Jam 2020 by a team of 4 people, whose source is available
-        <a href="https://github.com/silverweed/ggj20">here</a>.</p>
+        <a href="https://codeberg.org/silverweed/ggj20">here</a>.</p>
         <p>It's a text-based, Oregon Trail-like adventure settled in the far future. Play as a roaming automaton,
         tredding the land and attempting to mend itself, the humans it comes across and the planet.</p>
         <p>The game is event-based and all events are written in text files with a simple format,
@@ -448,7 +448,7 @@ div.gamedesc {
       <div class='gamedesc' style='align-self: flex-start'>
         <h1>Inle Engine</h1>
         <h3>Roles: programmer, designer</h3>
-        <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://github.com/silverweed/ecsde">source</a></p>
+        <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://codeberg.org/silverweed/ecsde">source</a></p>
         <p>Inle is a 2D toy game engine based on ECS and written in Rust.</p>
         <p>It features an OpenGL-based renderer, MSDF font rendering, simple 2D collisions based on impulse resolution, data and code hot-reloading and various debugging facilities, including a built-in tracing profiler and a console with autocompletion and better user input handling than Unreal's :-)</p>
         <p>It was built with as few dependencies as possible, the biggest dependency being SFML for windowing. It runs on Linux and Windows.</p>
