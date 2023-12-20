@@ -81,7 +81,7 @@ author:
   about            : "/about_this_blog_(and_its_author)/"
   avatar           : "/assets/img/inle.svg"
   bio              : ""
-  location         : 
+  location         :
   email            : "silverweed1991@gmail.com"
   uri              :
   bitbucket        :
@@ -90,22 +90,23 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "silverweed"
+  github           :
+  codeberg         : "silverweed"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : 
+  linkedin         :
   pinterest        :
   soundcloud       :
-  stackoverflow    : 
+  stackoverflow    :
   steam            :
   tumblr           :
   twitter          :
   vine             :
   weibo            :
   xing             :
-  youtube          : 
+  youtube          :
 
 
 # Reading Files

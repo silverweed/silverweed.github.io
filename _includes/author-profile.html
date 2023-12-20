@@ -133,6 +133,14 @@
         </li>
       {% endif %}
 
+      {% if author.codeberg %}
+        <li>
+          <a href="https://codeberg.org/{{ author.codeberg }}" itemprop="sameAs">
+            <i class="fa fa-fw fa-code" aria-hidden="true"></i> Codeberg
+          </a>
+        </li>
+      {% endif %}
+
       {% if author.stackoverflow %}
         <li>
           <a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}" itemprop="sameAs">
