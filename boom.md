@@ -61,15 +61,23 @@ However, as most of the code is there, I figured in the meantime I could work on
 <h3 id='downloads'>DOWNLOADS</h3>
 
 <ul>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.6_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.6_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.5.3_osx.zip'>BOOM Remake (OSX)</a> [v1.5.3]</li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.0_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.0_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.0_osx.zip'>BOOM Remake (OSX)</a> (NOTE: this version is <strong>untested</strong> since I don't have a computer running MacOS. It's been confirmed to work by other users and I have audited the source code to ensure it's not malicious, but still use it at your own risk!)</li>
 </ul>
 
 <h3 id='changelog'>CHANGELOG</h3>
 
 <dl class='changelog'>
-  <dt><strong>1.6 (current)</strong></dt>
+  <dt><strong>1.7.0</strong></dt>
+  <dd>
+    <ul>
+      <li>Fixed input handling on MacOS (@orazioedoardo)</li>
+      <li>Changed paths for preferences and save files on MacOS: they're now stored in ~/Library/ApplicationSupport/Boom Remake (@orazioedoardo)</li>
+      <li>Fixed crash happening on HiDPI configuration on MacOS (@orazioedoardo)</li>
+    </ul>
+  </dd>
+  <dt>1.6.0</dt>
   <dd>
     <ul>
       <li>Added German language</li>
