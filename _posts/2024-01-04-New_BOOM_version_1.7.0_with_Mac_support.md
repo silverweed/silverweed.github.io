@@ -15,6 +15,6 @@ Hey there!
 Thanks to the [kind contribution](https://github.com/silverweed/lifish/pull/20) by [orazioedoardo](https://github.com/orazioedoardo), *BOOM: Remake* now works again on the newest OSX versions.
 
 The support is "partial" because I cannot test the OSX version personally, so I can only rely on Mac players' feedback about it working or not.
-Nevertheless, if you're on Mac and missed playing the latest version of the game, [go give it a shot](https://silverweed.github.io/boom.md) and feel free to give your feedback, either on [codeberg](https://codeberg.org/silverweed/lifish) or [github](https://github.com/silverweed/lifish).
+Nevertheless, if you're on Mac and missed playing the latest version of the game, [go give it a shot](https://silverweed.github.io/boom) and feel free to give your feedback, either on [codeberg](https://codeberg.org/silverweed/lifish) or [github](https://github.com/silverweed/lifish).
 
 Happy new year and, as always, happy bombing :-)
