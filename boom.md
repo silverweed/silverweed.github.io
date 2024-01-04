@@ -69,7 +69,7 @@ However, as most of the code is there, I figured in the meantime I could work on
 <h3 id='changelog'>CHANGELOG</h3>
 
 <dl class='changelog'>
-  <dt><strong>1.7.0</strong></dt>
+  <dt><strong>1.7.0 (current)</strong></dt>
   <dd>
     <ul>
       <li>Fixed input handling on MacOS (@orazioedoardo)</li>
