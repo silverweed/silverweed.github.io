@@ -53,7 +53,8 @@ However, as most of the code is there, I figured in the meantime I could work on
 
 <h3 id='utils'>UTILITIES</h3>
 <h4 id='editor'>Level Editor</h4>
-<p>An experimental level editor <a href="https://codeberg.org/silverweed/lifish-edit/tags">is available</a>, currently in packaged version for Mac only. It can be compiled for Linux as well, but unfortunately there is no Windows support, due to the Crystal programming language not supporting it.</p>
+<p>A <a href="https://codeberg.org/silverweed/boom-edit-remake">new level editor</a> for *BOOM: Remake* is in the works, replacing the old one. It is superficially identical, but it has been rewritten from scratch to be easier to maintain and distribute. There is no packaged version yet, but it can already be built from source. So far it has been tested on Linux and Windows, but it should work on Mac as well, though it may require a bit more work to build it.</p>
+<p>The old level editor <a href="https://codeberg.org/silverweed/lifish-edit/tags">is still available</a> but deprecated. The main reason to use it is that it has an already-packaged Mac release (although it's old and may not work any more).</p> 
 
 <h4 id='levelgen'>Random Level Generator</h4>
 <p>There is also a <a href="https://codeberg.org/silverweed/boomlevelgen">random level generator</a> available, working for both the original BOOM and BOOM Remake. It requires Python 3 to run.</p>
