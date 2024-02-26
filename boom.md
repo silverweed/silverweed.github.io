@@ -62,15 +62,24 @@ However, as most of the code is there, I figured in the meantime I could work on
 <h3 id='downloads'>DOWNLOADS</h3>
 
 <ul>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.0_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.0_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.0_osx.zip'>BOOM Remake (OSX)</a> (NOTE: this version is <strong>untested</strong> since I don't have a computer running MacOS. It's been confirmed to work by other users and I have audited the source code to ensure it's not malicious, but still use it at your own risk!)</li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.1_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.1_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.1_osx.zip'>BOOM Remake (OSX)</a> (NOTE: this version is <strong>untested</strong> since I don't have a computer running MacOS. It's been confirmed to work by other users and I have audited the source code to ensure it's not malicious, but still use it at your own risk!)</li>
 </ul>
 
 <h3 id='changelog'>CHANGELOG</h3>
 
 <dl class='changelog'>
-  <dt><strong>1.7.0 (current)</strong></dt>
+  <dt><strong>1.7.1 (current)</strong></dt>
+  <dd>
+    <ul>
+      <li>Fixed Sudden Death giving points to a dead or non-playing player</li>
+      <li>Default key to place a bomb is now Command on MacOS (@orazioedoardo)</li>
+      <li>Saved games are now sorted by most recently used (@orazioedoardo)</li>
+      <li>New icon for the Mac app (@orazioedoardo)</li>
+    </ul>
+  </dd>
+  <dt>1.7.0</dt>
   <dd>
     <ul>
       <li>Fixed input handling on MacOS (@orazioedoardo)</li>
