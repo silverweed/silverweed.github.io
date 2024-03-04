@@ -53,7 +53,7 @@ However, as most of the code is there, I figured in the meantime I could work on
 
 <h3 id='utils'>UTILITIES</h3>
 <h4 id='editor'>Level Editor</h4>
-<p>A <a href="https://codeberg.org/silverweed/boom-edit-remake">new level editor</a> for <em>BOOM: Remake</em> is in the works, replacing the old one. It is superficially identical, but it has been rewritten from scratch to be easier to maintain and distribute. There is no packaged version yet, but it can already be built from source. So far it has been tested on Linux and Windows, but it should work on Mac as well, though it may require a bit more work to build it.</p>
+<p>A <a href="https://codeberg.org/silverweed/boom-edit-remake">new level editor</a> for <em>BOOM: Remake</em> is in the works, replacing the old one. It is superficially identical, but it has been rewritten from scratch to be easier to maintain and distribute. So far it has been tested on Linux and Windows, but it should work on Mac as well, though it may require a bit more work to build it. You can find the pre-packaged releases down below, in the Downloads section.</p>
 <p>The old level editor <a href="https://codeberg.org/silverweed/lifish-edit/tags">is still available</a> but deprecated. The main reason to use it is that it has an already-packaged Mac release (although it's old and may not work any more).</p> 
 
 <h4 id='levelgen'>Random Level Generator</h4>
@@ -65,6 +65,10 @@ However, as most of the code is there, I figured in the meantime I could work on
   <li><a href='/assets/games/lifish/lifish_BOOM_1.7.1_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a></li>
   <li><a href='/assets/games/lifish/lifish_BOOM_1.7.1_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a></li>
   <li><a href='/assets/games/lifish/lifish_BOOM_1.7.1_osx.zip'>BOOM Remake (OSX)</a> (NOTE: this version is <strong>untested</strong> since I don't have a computer running MacOS. It's been confirmed to work by other users and I have audited the source code to ensure it's not malicious, but still use it at your own risk!)</li>
+</ul>
+<hr/>
+<ul>
+  <li><a href='/assets/games/boom-edit-remake/boom-edit-remake_0.1.0_windows.7z'>Level Editor v0.1.0 (Windows 64 bit)</a></li>
 </ul>
 
 <h3 id='changelog'>CHANGELOG</h3>
