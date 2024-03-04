@@ -16,6 +16,12 @@ p.discl {
 	line-height: 20px;
 	margin-top: 10px;
 }
+.md5 {
+	font-size: 10pt;
+}
+.md5::before {
+	content: "MD5: ";
+}
 </style>
 
 <a href='#downloads'>Jump to downloads</a>
@@ -62,13 +68,13 @@ However, as most of the code is there, I figured in the meantime I could work on
 <h3 id='downloads'>DOWNLOADS</h3>
 
 <ul>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.1_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.1_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.1_osx.zip'>BOOM Remake (OSX)</a> (NOTE: this version is <strong>untested</strong> since I don't have a computer running MacOS. It's been confirmed to work by other users and I have audited the source code to ensure it's not malicious, but still use it at your own risk!)</li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.1_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a><p class='md5'>5c35f29baac81df088e81475dba7c4fe</p></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.1_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a><p class='md5'>f36de687ff13a2996a89b872f8baa3af</p></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.1_osx.zip'>BOOM Remake (OSX)</a><p class='md5'>26da49171b4e23895b528f863b0c6959</p> (NOTE: this version is <strong>untested</strong> since I don't have a computer running MacOS. It's been confirmed to work by other users and I have audited the source code to ensure it's not malicious, but still use it at your own risk!)</li>
 </ul>
 <hr/>
 <ul>
-  <li><a href='/assets/games/boom-edit-remake/boom-edit-remake_0.1.0_windows.7z'>Level Editor v0.1.0 (Windows 64 bit)</a></li>
+  <li><a href='/assets/games/boom-edit-remake/boom-edit-remake_0.1.0_windows.7z'>Level Editor v0.1.0 (Windows 64 bit)</a><p class='md5'>4d4bc1842c98a134169ce83d399669f0</p></li>
 </ul>
 
 <h3 id='changelog'>CHANGELOG</h3>
