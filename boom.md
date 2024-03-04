@@ -47,7 +47,7 @@ However, as most of the code is there, I figured in the meantime I could work on
 
 <b>Note:</b> <em>BOOM: Remake</em> shares most of its codebase with Lifish and, like it, it is free software. The source code is available [here](https://codeberg.org/silverweed/lifish) under the branch <code>boom</code>.
 
-<p class='discl'><b>DISCLAIMER</b>: all graphics and audio assets in the game belong to Factor Software. This game is a remake distributed free of charge with the aim to preserve the original game from obsolescence. If you are the owner of BOOM assets and want this game to be taken down, contact me at silverweed1991@gmail.com</p>
+<p class='discl'><b>DISCLAIMER</b>: all graphics and audio assets in the game belong to Factor Software. This game is a remake distributed free of charge with the aim to preserve the original game from obsolescence. If you are the owner of BOOM assets and want this game to be taken down, contact me at silverweed14@proton.me</p>
 
 <hr>
 
