@@ -17,7 +17,7 @@ p.discl {
 	margin-top: 10px;
 }
 .md5 {
-	font-size: 10pt;
+	font-size: 10pt !important;
 }
 .md5::before {
 	content: "MD5: ";
