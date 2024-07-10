@@ -68,9 +68,9 @@ However, as most of the code is there, I figured in the meantime I could work on
 <h3 id='downloads'>DOWNLOADS</h3>
 
 <ul>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.2_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a><p class='md5'>5c35f29baac81df088e81475dba7c4fe</p></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.2_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a><p class='md5'>f36de687ff13a2996a89b872f8baa3af</p></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.2_osx.zip'>BOOM Remake (OSX)</a><p class='md5'>26da49171b4e23895b528f863b0c6959</p> (NOTE: this version is <strong>untested</strong> since I don't have a computer running MacOS. It's been confirmed to work by other users and I have audited the source code to ensure it's not malicious, but still use it at your own risk!)</li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.2_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a><p class='md5'>5d4204a96e32f1c0b6ec282313469c97</p></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.2_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a><p class='md5'>4337b713772343c37704074fa720e446</p></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.2_osx.zip'>BOOM Remake (OSX)</a><p class='md5'>0dbdd15652ede64a3ca3f838dc92d089</p></li>
 </ul>
 <hr/>
 <ul>
