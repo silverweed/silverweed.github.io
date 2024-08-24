@@ -68,9 +68,9 @@ However, as most of the code is there, I figured in the meantime I could work on
 <h3 id='downloads'>DOWNLOADS</h3>
 
 <ul>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.2_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a><p class='md5'>5d4204a96e32f1c0b6ec282313469c97</p></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.2_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a><p class='md5'>4337b713772343c37704074fa720e446</p></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.2_osx.zip'>BOOM Remake (OSX)</a><p class='md5'>0dbdd15652ede64a3ca3f838dc92d089</p></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.3_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a><p class='md5'>bfbde3a3f65cda1a076bfd7f5162fe0b</p></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.3_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a><p class='md5'>1b41a174bd748b5212a10f803520eece</p></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.3_osx.zip'>BOOM Remake (OSX)</a><p class='md5'>e6f777480619abba74baa49475b26182</p></li>
 </ul>
 <hr/>
 <ul>
@@ -80,7 +80,13 @@ However, as most of the code is there, I figured in the meantime I could work on
 <h3 id='changelog'>CHANGELOG</h3>
 
 <dl class='changelog'>
-  <dt><strong>1.7.2 (current)</strong></dt>
+  <dt><strong>1.7.3 (current)</strong></dt>
+  <dd>
+    <ul>
+      <li>Added French language</li>
+    </ul>
+  </dd>
+  <dt>1.7.2</dt>
   <dd>
     <ul>
       <li>Fixed players sometimes not taking damage from bullets</li>
