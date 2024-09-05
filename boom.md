@@ -68,9 +68,10 @@ However, as most of the code is there, I figured in the meantime I could work on
 <h3 id='downloads'>DOWNLOADS</h3>
 
 <ul>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.3_linux_x64.tar.xz'>BOOM Remake (Linux 64 bit)</a><p class='md5'>bfbde3a3f65cda1a076bfd7f5162fe0b</p></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.3_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a><p class='md5'>1b41a174bd748b5212a10f803520eece</p></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.7.3_osx.zip'>BOOM Remake (OSX)</a><p class='md5'>e6f777480619abba74baa49475b26182</p></li>
+  <li><a href='/assets/games/lifish/BOOM-Remake-1.8.0-linux-x86_64.AppImage'>BOOM Remake (Linux x86_64)</a><p class='md5'>b57197a95bc00422b2f51a1b3e2d2933</p></li>
+  <li><a href='/assets/games/lifish/BOOM-Remake-1.8.0-linux-aarch64.AppImage'>BOOM Remake (Linux aarch64)</a><p class='md5'>898608eabc57604df6f4890bca5ec88a</p></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.8.0_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a><p class='md5'>a13f4b250b48b84947cc46640e9e63f4</p></li>
+  <li><a href='/assets/games/lifish/BOOM-Remake-1.8.0.mac.dmg'>BOOM Remake (macOS universal)</a><p class='md5'>04767b1e4bf1f37f5938764891350b8d</p></li>
 </ul>
 <hr/>
 <ul>
@@ -80,7 +81,15 @@ However, as most of the code is there, I figured in the meantime I could work on
 <h3 id='changelog'>CHANGELOG</h3>
 
 <dl class='changelog'>
-  <dt><strong>1.7.3 (current)</strong></dt>
+  <dt><strong>1.8.0 (current)</strong></dt>
+  <dd>
+    <ul>
+	  <li>Moved levels, saves and preferences files locations on Linux (@orazioedoardo)</li>
+	  <li>Linux builds are now AppImages (@orazioedoardo)</li>
+	  <li>Added Linux aarch64 build (@orazioedoardo)</li>
+	</ul>
+  </dd>
+  <dt>1.7.3</dt>
   <dd>
     <ul>
       <li>Added French language</li>

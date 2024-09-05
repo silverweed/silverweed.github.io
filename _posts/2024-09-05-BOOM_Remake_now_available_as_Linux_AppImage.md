@@ -2,7 +2,6 @@
 title: BOOM Remake now available as Linux AppImage
 author: silverweed
 layout: single
-published: false
 tags:
   - boom  
   - videogame  
