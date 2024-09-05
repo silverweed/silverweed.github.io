@@ -75,7 +75,7 @@ However, as most of the code is there, I figured in the meantime I could work on
 </ul>
 <hr/>
 <ul>
-  <li><a href='/assets/games/boom-edit-remake/boom-edit-remake_0.1.0_windows.7z'>Level Editor v0.1.0 (Windows 64 bit)</a><p class='md5'>936bea75853d99083d53ebe792a111dc</p></li>
+  <li><a href='/assets/games/boom-edit-remake/boom-edit-remake_0.1.1_windows.7z'>Level Editor v0.1.1 (Windows 64 bit)</a><p class='md5'>11a94e2be3f8bbcacd62a5799b2bd600</p></li>
 </ul>
 
 <h3 id='changelog'>CHANGELOG</h3>
