@@ -32,23 +32,23 @@ div.gamedesc {
 
 <ul class='gamelist'>
   <li>
-    <a href="/lifish/">
-      <div class='game'>
-        <img src="/assets/img/lifish/lifish_screen1.png" alt="Lifish"/>
-        <div class='gamedesc'>
-          <h2>Lifish</h2>
-          <p>An old-style arcade game about bombing aliens. Currently on hiatus, but served as the base for BOOM Remake.</p>
-        </div>
-      </div>
-    </a>
-  </li>
-  <li>
     <a href="/boom/">
       <div class='game'>
         <img src="/assets/img/boom/boom_screen1.png" alt="BOOM Remake"/>
         <div class='gamedesc'>
           <h2>BOOM Remake</h2>
           <p>A remake of the original MacOS game "BOOM" by Factor Software that inspired Lifish.</p>
+        </div>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="/lifish/">
+      <div class='game'>
+        <img src="/assets/img/lifish/lifish_screen1.png" alt="Lifish"/>
+        <div class='gamedesc'>
+          <h2>Lifish</h2>
+          <p>An old-style arcade game about bombing aliens. Currently on hiatus, but served as the base for BOOM Remake.</p>
         </div>
       </div>
     </a>
