@@ -1,0 +1,12 @@
+#!/bin/bash
+
+GAMES=$(grep "href='/assets/games/lifish" boom.md | awk -v 'FS=/' '{print $5}' | cut -f1 -d\')
+
+for GAME in $GAMES; do
+	[[ -r assets/games/lifish/$GAME ]] || { 
+		echo "Link $GAME points to non-existent file!" >&2
+		exit 1
+	}
+done
+
+exit 0

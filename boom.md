@@ -71,7 +71,7 @@ However, as most of the code is there, I figured in the meantime I could work on
   <li><a href='/assets/games/lifish/BOOM-Remake-1.8.1-linux-x86_64.AppImage'>BOOM Remake (Linux x86_64)</a><p class='md5'>35299d44ad9a9bb222a87d85134d9b58</p></li>
   <li><a href='/assets/games/lifish/BOOM-Remake-1.8.1-linux-aarch64.AppImage'>BOOM Remake (Linux aarch64)</a><p class='md5'>7defd548c244eeffa2cbaed55cfdb5fa</p></li>
   <li><a href='/assets/games/lifish/lifish_BOOM_1.8.1_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a><p class='md5'>0850a4ca268ada9a45d12910b9697f92</p></li>
-  <li><a href='/assets/games/lifish/BOOM-Remake-1.8.1.mac.dmg'>BOOM Remake (macOS universal)</a><p class='md5'>ae375d4bee1f56f21ad8f5aa5373c87c</p></li>
+  <li><a href='/assets/games/lifish/BOOM-Remake-1.8.1-mac.dmg'>BOOM Remake (macOS universal)</a><p class='md5'>ae375d4bee1f56f21ad8f5aa5373c87c</p></li>
 </ul>
 <hr/>
 <ul>
