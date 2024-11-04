@@ -11,5 +11,5 @@ tags:
 A new version of *BOOM: Remake* is available, adding keyboard menu navigation and fixing some crashes that may happen when navigating menus with a joystick.
 
 Download the new version [here](https://silverweed.github.io/boom/#downloads).
+
 Happy bombing!
----
