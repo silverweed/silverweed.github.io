@@ -68,10 +68,10 @@ However, as most of the code is there, I figured in the meantime I could work on
 <h3 id='downloads'>DOWNLOADS</h3>
 
 <ul>
-  <li><a href='/assets/games/lifish/BOOM-Remake-1.8.1-linux-x86_64.AppImage'>BOOM Remake (Linux x86_64)</a><p class='md5'>35299d44ad9a9bb222a87d85134d9b58</p></li>
-  <li><a href='/assets/games/lifish/BOOM-Remake-1.8.1-linux-aarch64.AppImage'>BOOM Remake (Linux aarch64)</a><p class='md5'>7defd548c244eeffa2cbaed55cfdb5fa</p></li>
-  <li><a href='/assets/games/lifish/lifish_BOOM_1.8.1_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a><p class='md5'>0850a4ca268ada9a45d12910b9697f92</p></li>
-  <li><a href='/assets/games/lifish/BOOM-Remake-1.8.1-mac.dmg'>BOOM Remake (macOS universal)</a><p class='md5'>ae375d4bee1f56f21ad8f5aa5373c87c</p></li>
+  <li><a href='/assets/games/lifish/BOOM-Remake-1.8.2-linux-x86_64.AppImage'>BOOM Remake (Linux x86_64)</a><p class='md5'>3c44f096eb7fbeba0fb1e661cc552c96</p></li>
+  <li><a href='/assets/games/lifish/BOOM-Remake-1.8.2-linux-aarch64.AppImage'>BOOM Remake (Linux aarch64)</a><p class='md5'>ccae555a9b87ce675c1d7ecff4ea7b6b</p></li>
+  <li><a href='/assets/games/lifish/lifish_BOOM_1.8.2_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a><p class='md5'>647d68436b3854604ff2cd133333f1af</p></li>
+  <li><a href='/assets/games/lifish/BOOM-Remake-1.8.2-mac.dmg'>BOOM Remake (macOS universal)</a><p class='md5'>93e11dd7668776078b946304cdb4ccac</p></li>
 </ul>
 <hr/>
 <ul>
@@ -81,19 +81,26 @@ However, as most of the code is there, I figured in the meantime I could work on
 <h3 id='changelog'>CHANGELOG</h3>
 
 <dl class='changelog'>
-  <dt><strong>1.8.1 (current)</strong></dt>
+  <dt><strong>1.8.2 (current)</strong></dt>
   <dd>
     <ul>
-	  <li>Fixed a regression that caused preferences and save files to fail to save (@orazioedoardo)</li>
-	</ul>
+      <li>Added keyboard menu navigation</li>
+      <li>Fixed some UI crashes happening with joystick navigation</li>
+    </ul>
+  </dd>
+  <dt>1.8.1</dt>
+  <dd>
+    <ul>
+      <li>Fixed a regression that caused preferences and save files to fail to save (@orazioedoardo)</li>
+    </ul>
   </dd>
   <dt>1.8.0</dt>
   <dd>
     <ul>
-	  <li>Moved levels, saves and preferences files locations on Linux (@orazioedoardo)</li>
-	  <li>Linux builds are now AppImages (@orazioedoardo)</li>
-	  <li>Added Linux aarch64 build (@orazioedoardo)</li>
-	</ul>
+      <li>Moved levels, saves and preferences files locations on Linux (@orazioedoardo)</li>
+      <li>Linux builds are now AppImages (@orazioedoardo)</li>
+      <li>Added Linux aarch64 build (@orazioedoardo)</li>
+    </ul>
   </dd>
   <dt>1.7.3</dt>
   <dd>
