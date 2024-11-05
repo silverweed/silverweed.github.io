@@ -68,10 +68,10 @@ However, as most of the code is there, I figured in the meantime I could work on
 <h3 id='downloads'>DOWNLOADS</h3>
 
 <ul>
-  <li><a href='/assets/games/lifish/BOOM-Remake-1.8.2-linux-x86_64.AppImage'>BOOM Remake (Linux x86_64)</a><p class='md5'>3c44f096eb7fbeba0fb1e661cc552c96</p></li>
-  <li><a href='/assets/games/lifish/BOOM-Remake-1.8.2-linux-aarch64.AppImage'>BOOM Remake (Linux aarch64)</a><p class='md5'>ccae555a9b87ce675c1d7ecff4ea7b6b</p></li>
+  <li><a href='/assets/games/lifish/BOOM-Remake-1.8.2-linux-x86_64.AppImage'>BOOM Remake (Linux x86_64)</a><p class='md5'>306cf50577da8ecc885f41c881dd8c0a</p></li>
+  <li><a href='/assets/games/lifish/BOOM-Remake-1.8.2-linux-aarch64.AppImage'>BOOM Remake (Linux aarch64)</a><p class='md5'>5e78deb82d14130c691064faa7a582a2</p></li>
   <li><a href='/assets/games/lifish/lifish_BOOM_1.8.2_windows_x64.zip'>BOOM Remake (Windows 64 bit)</a><p class='md5'>647d68436b3854604ff2cd133333f1af</p></li>
-  <li><a href='/assets/games/lifish/BOOM-Remake-1.8.2-mac.dmg'>BOOM Remake (macOS universal)</a><p class='md5'>93e11dd7668776078b946304cdb4ccac</p></li>
+  <li><a href='/assets/games/lifish/BOOM-Remake-1.8.2-mac.dmg'>BOOM Remake (macOS universal)</a><p class='md5'>306cf50577da8ecc885f41c881dd8c0a</p></li>
 </ul>
 <hr/>
 <ul>
