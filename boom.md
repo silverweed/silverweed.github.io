@@ -53,7 +53,6 @@ However, as most of the code is there, I figured in the meantime I could work on
 
 <h3 id='known_issues'>KNOWN ISSUES</h3>
 <ul>
-  <li><s>Input does not work on OSX Catalina <a href="https://github.com/silverweed/lifish/issues/6#issuecomment-585331958">unless global event capture is allowed</a>. This is due to Apple's new security policy and <strong>will not be fixed for the time being</strong>.</s> (should be solved in 1.7.0)</li>
   <li>The app is unsigned, so a warning may be displayed when starting it. This will <strong>not</strong> be fixed.</li>
 </ul>
 
