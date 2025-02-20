@@ -43,7 +43,7 @@ I played BOOM a lot, since when I was a kid, and it is the game that made me ven
 
 For this reason, in 2015 I decided to start working on a complete remake for the game. That project would eventually become [Lifish](/lifish/). But alas, making a game is hard and takes a lot of time, so Lifish still isn't complete yet. 
 
-However, as most of the code is there, I figured in the meantime I could work on a mod that, changing a bit of gameplay logic and borrowing assets from the original game, could effectively become a faithful remake of BOOM! So there it is, a game as close to the original Factor Software's BOOM, playable on Windows, Mac and Linux completely for free!
+However, as most of the code is there, I figured in the meantime I could work on a mod that, changing a bit of gameplay logic and borrowing assets from the original game, could effectively become a faithful remake of BOOM! So there it is, a game as close to the original Factor Software's BOOM as possible, playable on Windows, Mac and Linux completely for free!
 
 <b>Note:</b> <em>BOOM: Remake</em> shares most of its codebase with Lifish and, like it, it is free software. The source code is available [here](https://codeberg.org/silverweed/lifish) under the branch <code>boom</code>.
 
