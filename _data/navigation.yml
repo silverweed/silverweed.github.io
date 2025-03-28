@@ -1,7 +1,5 @@
 # main links
 main:
-   - title: "Tags"
-     url: /tags/
    - title: "Archive"
      url: /year-archive/
    - title: "BOOM"
