@@ -141,7 +141,6 @@ div.gamedesc {
     <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
         <h1>Master Thesis: Distributed Rendering in Vulkan</h1>
-        <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="/assets/docs/distributed_rendering_in_vulkan.pdf">paper</a></p>
         <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://codeberg.org/silverweed/thesis">source</a></p>
         <p>My Master Thesis project, written in C++14 using the Vulkan API. Runs on Linux and Windows.</p>
         <p>This project explores the concept of a “distributed rendering engine” for videogames with the aim to split the graphics
