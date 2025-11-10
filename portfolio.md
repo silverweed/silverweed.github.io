@@ -86,7 +86,7 @@ div.gamedesc {
   <li class='a'>
     <div class='game'>
       <div class='gamedesc'>
-        <h1>Lifish / BOOM Remake <small>(2015-2019)</h1>
+        <h1>Lifish / BOOM Remake <small>(2015-2019)</small></h1>
         <h3>Roles: programmer, designer</h3>
         <p>Lifish was born in 2015 as a free software clone of an old Mac game called <em>BOOM</em>, 
         a "Bomberman meets Doom" arcade game. The source code is available
