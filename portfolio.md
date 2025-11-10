@@ -86,7 +86,7 @@ div.gamedesc {
   <li class='a'>
     <div class='game'>
       <div class='gamedesc'>
-        <h1>Lifish / BOOM Remake</h1>
+        <h1>Lifish / BOOM Remake <small>(2015-2019)</h1>
         <h3>Roles: programmer, designer</h3>
         <p>Lifish was born in 2015 as a free software clone of an old Mac game called <em>BOOM</em>, 
         a "Bomberman meets Doom" arcade game. The source code is available
@@ -114,7 +114,7 @@ div.gamedesc {
   <li class='b'>
     <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
-        <h1>Haru</h1>
+        <h1>Haru <small>(2023)</small></h1>
         <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://codeberg.org/silverweed/haru">source</a></p>
         <p>A rendering engine I'm writing in my free time, written in C++ and working on Linux and Windows.</p>
         <p>Uses GLFW for windowing and OpenGL 4.6 as a graphics backend.</p>
@@ -140,7 +140,7 @@ div.gamedesc {
   <li class='a'>
     <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
-        <h1>Master Thesis: Distributed Rendering in Vulkan</h1>
+        <h1>Master Thesis: Distributed Rendering in Vulkan <small>(2018)</small></h1>
         <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://codeberg.org/silverweed/thesis">source</a></p>
         <p>My Master Thesis project, written in C++14 using the Vulkan API. Runs on Linux and Windows.</p>
         <p>This project explores the concept of a “distributed rendering engine” for videogames with the aim to split the graphics
@@ -170,11 +170,11 @@ div.gamedesc {
   <li class='b'>
     <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
-        <h1>Gadget</h1>
+        <h1>Gadget <small>(2018)</small></h1>
+        <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://codeberg.org/silverweed/gadget">source</a></p>
         <p>My first toy rendering engine, written (in a couple of months) as a way to get 
 	a solid grasp on OpenGL and graphics programming.</p>
         <p>Gadget is written in D and uses OpenGL + SFML for windowing. It's only been tested on Linux.</p>
-        <p>Its source code is available <a href="https://codeberg.org/silverweed/gadget">here</a>.</p>
         <p>Features basic primitive drawing, instanced drawing,
         texturing, diffuse/specular/normal maps, ambient/directional/multiple point lights, 
 	Blinn-Phong shading, shadow mapping and skybox drawing.</p>
@@ -201,7 +201,7 @@ div.gamedesc {
   <li class='a'>
     <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
-        <h1>GIVE - I Guardiani Del Corpo</h1>
+        <h1>GIVE - I Guardiani Del Corpo <small>(2016-2017)</small></h1>
         <h3>Roles: programming, materials, levels, some 3D models and animations</h3>
         <p>GIVE was my first commissioned game and also my first one made with Unreal Engine.</p>
         <p>The final product is the result of one year of work from a team of 2 people. My main role
@@ -241,7 +241,7 @@ div.gamedesc {
   <li class='b'>
     <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
-        <h1>Hacknid</h1>
+        <h1>Hacknid <small>(2019)</small></h1>
         <h3>Roles: gameplay, shader and tool programmer</h3>
         <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://www.youtube.com/watch?v=cNoHH2No_1M&index=60&list=PL4QF7lP4PZkBYflnk-bkJd_fs57Exw-YN">trailer</a></p>
         <p>Hacknid is a game made in 48 hours for Global Game Jam 2018 by a team of 4 people, available for
@@ -282,8 +282,9 @@ div.gamedesc {
   <li class='a'>
     <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
-        <h1>qU</h1>
+        <h1>qU <small>(2017)</small></h1>
         <h3>Roles: programmer</h3>
+        <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://github.com/qu-team/QuPrototype">source</a></p>
         <p>A 2D puzzle game for mobile, developed in a team of 3 people as a project for the university course of Mobile Computing.
         We used the Unity game engine.</p>
         <p>The game is available on <a href="https://play.google.com/store/apps/details?id=it.unimi.qu">Play Store</a>, 
@@ -316,12 +317,12 @@ div.gamedesc {
   <li class='b'>
     <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
-        <h1>Wavescape</h1>
+        <h1>Wavescape <small>(2017)</small></h1>
         <h3>Roles: programmer, designer</h3>
         <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://www.youtube.com/watch?v=ap_coff-fCg">trailer</a></p>
+        <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://codeberg.org/silverweed/ggj17">source</a></p>
         <p>Wavescape is a game made in 48 hours for Global Game Jam 2017 by a team of 6 people, available for
-        download <a href="https://ggj.s3.amazonaws.com/games/2017/01/22/1729/wavescape_win_linux.zip">here</a> (source available
-        <a href="https://codeberg.org/silverweed/ggj17">here</a>).</p>
+        download <a href="https://ggj.s3.amazonaws.com/games/2017/01/22/1729/wavescape_win_linux.zip">here</a>.</p>
         <p>It's a 2D puzzle game for Windows and Linux where you control the wave function of an ion
         trapped in a quantum computer. The ion follows its wave: change its shape to make it avoid
         the obstacles!</p>
@@ -354,8 +355,9 @@ div.gamedesc {
   <li class='a'>
     <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
-        <h1>Realtime Graphics Programming project [unnamed]</h1>
+        <h1>Realtime Graphics Programming project <small>(2017)</small></h1>
         <h3>Roles: programmer</h3>
+        <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://codeberg.org/silverweed/pgtr">source</a></p>
         <p>A project made for a course in Realtime Graphics Programming by a team of 2 people.</p>
         <p>It's a toon-shaded "tech demo" viewable in browser where you make a small turtle swim in the ocean among floating barrels.</p>
         <p>Uses <a href="https://threejs.org/">THREE.js</a> as a WebGL helper and <a href="https://github.com/kripken/ammo.js/">Ammo.js</a>
@@ -364,7 +366,7 @@ div.gamedesc {
         <p>In this project, I wrote the physics simulation system (including the player's movement and the floating of
         objects) as well as most of the assets loading and initialization, which is mostly asynchronous.</p>
         <p>I used <a href="http://maxtaco.github.io/coffee-script/">Iced Coffeescript</a> to ease the writing of the
-        numerous asynchronous parts of the code. The code is available <a href="https://codeberg.org/silverweed/pgtr/">here</a>.</p>
+        numerous asynchronous parts of the code.</p>
       </div>
       <div class='game-imgs'>
         <a href='/assets/img/pgtr/pgtr1.png'>
@@ -385,9 +387,10 @@ div.gamedesc {
   <li class='b'>
     <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
-        <h1>Blockster</h1>
+        <h1>Blockster <small>(2019)</small></h1>
         <h3>Roles: programmer, designer</h3>
         <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://www.youtube.com/watch?v=d_ngjdZGyxI">trailer</a></p>
+        <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://codeberg.org/silverweed/ggj19">source</a></p>
         <p>Blockster is a game made in 48 hours for Global Game Jam 2019 by a team of 4 people, available for
         download <a href="https://silverweed91.itch.io/blockster">here</a>.</p>
         <p>It's a frenetic 1v1 arena brawler for Windows and Linux where your goal is to reach your opponent's house
@@ -417,11 +420,11 @@ div.gamedesc {
   <li class='a'>
     <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
-        <h1>Automaton</h1>
+        <h1>Automaton <small>(2020)</small></h1>
         <h3>Roles: programmer</h3>
         <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://www.youtube.com/watch?v=RkuEjaRWawE">trailer</a></p>
-        <p>Automaton is a game made in 48 hours for Global Game Jam 2020 by a team of 4 people, whose source is available
-        <a href="https://codeberg.org/silverweed/ggj20">here</a>.</p>
+        <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://codeberg.org/silverweed/ggj20">source</a></p>
+        <p>Automaton is a game made in 48 hours for Global Game Jam 2020 by a team of 4 people.</p>
         <p>It's a text-based, Oregon Trail-like adventure settled in the far future. Play as a roaming automaton,
         tredding the land and attempting to mend itself, the humans it comes across and the planet.</p>
         <p>The game is event-based and all events are written in text files with a simple format,
@@ -445,7 +448,7 @@ div.gamedesc {
   <li class='b'>
     <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
-        <h1>Inle Engine</h1>
+        <h1>Inle Engine <small>(2018-2022)</small></h1>
         <h3>Roles: programmer, designer</h3>
         <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://codeberg.org/silverweed/ecsde">source</a></p>
         <p>Inle is a 2D toy game engine based on ECS and written in Rust.</p>
