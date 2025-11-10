@@ -88,17 +88,22 @@ div.gamedesc {
       <div class='gamedesc'>
         <h1>Lifish / BOOM Remake <small>(2015-2019)</small></h1>
         <h3>Roles: programmer, designer</h3>
+        <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://codeberg.org/silverweed/lifish">source</a></p>
         <p>Lifish was born in 2015 as a free software clone of an old Mac game called <em>BOOM</em>, 
-        a "Bomberman meets Doom" arcade game. The source code is available
-        <a href="https://codeberg.org/silverweed/lifish">here</a>.</p>
+        a "Bomberman meets Doom" arcade game.</p>
         <p>The project later evolved into an original game, preserving most original BOOM mechanics 
         while adding on bosses, enemies and powerups.</p>
-        <p>As a <strong>programmer</strong>, I basically wrote the entire thing. Lifish uses a custom C++
-        engine leveraging the <a href="https://www.sfml-dev.org/">SFML</a> multimedia library for
-        multi-platform deployment (the game runs on Linux, Mac, Windows and FreeBSD).</p>
-        <p>Lifish development is in hiatus, but I created a fork named 
+        <p>As a solo programmer, I wrote the entire thing, including a custom C++
+        engine based on the <a href="https://www.sfml-dev.org/">SFML</a> multimedia library.
+        The game runs on Linux, Mac, Windows and FreeBSD.</p>
+        <p>The development of Lifish is in a hiatus, but I created a fork named 
         <a href="https://silverweed.github.io/boom/">BOOM: Remake</a> which is a 
-        faithful recreation of the original <em>BOOM</em> available for free for Linux, Windows and Mac.</p>
+        faithful recreation of the original <em>BOOM</em>.</p>
+        <p>While developing the game I also created a custom level editor. Well, two actually. The <a href="https://codeberg.org/silverweed/lifish-edit">first</a> was an SFML-based editor
+        written in Crystal (for some reason), and the <a href="https://codeberg.org/silverweed/boom-edit-remake/">second</a>
+        was a complete rewriting, this time based on SDL and written in Rust. The reason for rewriting the editor was
+        that it had become increasingly annoying to build it due to the poor, unmaintained Crystal SFML bindings and
+        overall hassle of dealing with a C++ library as a dependency.</p>
       </div>
       <div class='game-imgs'>
         <a href='/assets/img/lifish/lifish_screen1.png'><img src="/assets/img/lifish/lifish_screen1.png" alt="Lifish"/></a>
@@ -116,10 +121,10 @@ div.gamedesc {
       <div class='gamedesc' style='align-self: flex-start'>
         <h1>Haru <small>(2023)</small></h1>
         <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://codeberg.org/silverweed/haru">source</a></p>
-        <p>A rendering engine I'm writing in my free time, written in C++ and working on Linux and Windows.</p>
+        <p>A rendering engine I've been writing in my free time, written in C++ and working on Linux and Windows.</p>
         <p>Uses GLFW for windowing and OpenGL 4.6 as a graphics backend.</p>
-        <p>It's still early in development, but it currently features: (partial) GLTF models loading, multiple viewports and cameras, PBR, HDR, frustum culling using spheres, AABB and OBB, shadow mapping, custom memory allocators, ImGui-based user interface and various profiling views.</p>
-        <p>Haru currently uses a deferred G-Buffer-based rendering pipeline, supporting an intederminate amount of lights through additive blending. My intention is to eventually switch to a visibility buffer approach.</p>
+        <p>Its development is now halted, but as it stands it features: (partial) GLTF models loading, multiple viewports and cameras, PBR, HDR, frustum culling using spheres, AABB and OBB, shadow mapping, custom memory allocators, ImGui-based user interface and various profiling views.</p>
+        <p>Haru uses a deferred G-Buffer-based rendering pipeline, supporting an intederminate amount of lights through additive blending. My intention is to eventually switch to a visibility buffer approach.</p>
       </div>
       <div class='game-imgs'>
         <a href='/assets/img/haru/haru.png'>
@@ -173,7 +178,7 @@ div.gamedesc {
         <h1>Gadget <small>(2018)</small></h1>
         <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://codeberg.org/silverweed/gadget">source</a></p>
         <p>My first toy rendering engine, written (in a couple of months) as a way to get 
-	a solid grasp on OpenGL and graphics programming.</p>
+	a grasp on OpenGL and graphics programming.</p>
         <p>Gadget is written in D and uses OpenGL + SFML for windowing. It's only been tested on Linux.</p>
         <p>Features basic primitive drawing, instanced drawing,
         texturing, diffuse/specular/normal maps, ambient/directional/multiple point lights, 
