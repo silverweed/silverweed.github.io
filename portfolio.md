@@ -256,8 +256,8 @@ div.gamedesc {
         <p>It's a 2D puzzle/stealth game for PC where you must get to the end of the level by controlling not only
         your character, but enemies as well.</p>
         <p>As the game received positive feedback, we kept on developing Hacknid to expand it into a full
-        game. Like during the jam, I'm the main programmer both for gameplay and shading.</p>
-        <p>We're using GameMaker Studio, but as our game needs lots of levels we developed our own external
+        game.</p>
+        <p>The game was developed in GameMaker Studio, but we also we developed an external
         level editor in C# / WPF to ease the work of designers.</p> 
       </div>
       <div class='game-imgs'>
@@ -360,38 +360,6 @@ div.gamedesc {
   <li class='a'>
     <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
-        <h1>Realtime Graphics Programming project <small>(2017)</small></h1>
-        <h3>Roles: programmer</h3>
-        <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://codeberg.org/silverweed/pgtr">source</a></p>
-        <p>A project made for a course in Realtime Graphics Programming by a team of 2 people.</p>
-        <p>It's a toon-shaded "tech demo" viewable in browser where you make a small turtle swim in the ocean among floating barrels.</p>
-        <p>Uses <a href="https://threejs.org/">THREE.js</a> as a WebGL helper and <a href="https://github.com/kripken/ammo.js/">Ammo.js</a>
-        as Bullet Physics binding to Javascript.</p>
-        <p>Both the barrels and the turtle are dynamic rigidbodies which collide and float through physics simulation.</p>
-        <p>In this project, I wrote the physics simulation system (including the player's movement and the floating of
-        objects) as well as most of the assets loading and initialization, which is mostly asynchronous.</p>
-        <p>I used <a href="http://maxtaco.github.io/coffee-script/">Iced Coffeescript</a> to ease the writing of the
-        numerous asynchronous parts of the code.</p>
-      </div>
-      <div class='game-imgs'>
-        <a href='/assets/img/pgtr/pgtr1.png'>
-          <img src="/assets/img/pgtr/pgtr1.png" alt="PGTR"/>
-        </a>
-        <a href='/assets/img/pgtr/pgtr2.png'>
-          <img src="/assets/img/pgtr/pgtr2.png" alt="PGTR"/>
-        </a>
-        <a href='/assets/img/pgtr/pgtr3.png'>
-          <img src="/assets/img/pgtr/pgtr3.png" alt="PGTR"/>
-        </a>
-        <a href='/assets/img/pgtr/pgtr4.png'>
-          <img src="/assets/img/pgtr/pgtr4.png" alt="PGTR"/>
-        </a>
-      </div>
-    </div>
-  </li>
-  <li class='b'>
-    <div class='game'>
-      <div class='gamedesc' style='align-self: flex-start'>
         <h1>Blockster <small>(2019)</small></h1>
         <h3>Roles: programmer, designer</h3>
         <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://www.youtube.com/watch?v=d_ngjdZGyxI">trailer</a></p>
@@ -422,7 +390,7 @@ div.gamedesc {
       </div>
     </div>
   </li>
-  <li class='a'>
+  <li class='b'>
     <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
         <h1>Automaton <small>(2020)</small></h1>
@@ -450,7 +418,7 @@ div.gamedesc {
       </div>
     </div>
   </li>
-  <li class='b'>
+  <li class='a'>
     <div class='game'>
       <div class='gamedesc' style='align-self: flex-start'>
         <h1>Inle Engine <small>(2018-2022)</small></h1>
@@ -471,6 +439,38 @@ div.gamedesc {
         <a href='/assets/video/inle/inle_prof.mp4'>
           <img class='thumb' src="/assets/video/inle/inle_prof_small.png" alt="Profiling tools in Inle engine"/>
           <video src="/assets/video/inle/inle_prof_small.webm" alt="Profiling tools in Inle engine"></video>
+        </a>
+      </div>
+    </div>
+  </li>
+  <li class='b'>
+    <div class='game'>
+      <div class='gamedesc' style='align-self: flex-start'>
+        <h1>Realtime Graphics Programming project <small>(2017)</small></h1>
+        <h3>Roles: programmer</h3>
+        <p>&nbsp;&nbsp;<i class='fa fa-fw fa-arrow-right'></i> <a href="https://codeberg.org/silverweed/pgtr">source</a></p>
+        <p>A project made for a course in Realtime Graphics Programming by a team of 2 people.</p>
+        <p>It's a toon-shaded "tech demo" viewable in browser where you make a small turtle swim in the ocean among floating barrels.</p>
+        <p>Uses <a href="https://threejs.org/">THREE.js</a> as a WebGL helper and <a href="https://github.com/kripken/ammo.js/">Ammo.js</a>
+        as Bullet Physics binding to Javascript.</p>
+        <p>Both the barrels and the turtle are dynamic rigidbodies which collide and float through physics simulation.</p>
+        <p>In this project, I wrote the physics simulation system (including the player's movement and the floating of
+        objects) as well as most of the assets loading and initialization, which is mostly asynchronous.</p>
+        <p>I used <a href="http://maxtaco.github.io/coffee-script/">Iced Coffeescript</a> to ease the writing of the
+        numerous asynchronous parts of the code.</p>
+      </div>
+      <div class='game-imgs'>
+        <a href='/assets/img/pgtr/pgtr1.png'>
+          <img src="/assets/img/pgtr/pgtr1.png" alt="PGTR"/>
+        </a>
+        <a href='/assets/img/pgtr/pgtr2.png'>
+          <img src="/assets/img/pgtr/pgtr2.png" alt="PGTR"/>
+        </a>
+        <a href='/assets/img/pgtr/pgtr3.png'>
+          <img src="/assets/img/pgtr/pgtr3.png" alt="PGTR"/>
+        </a>
+        <a href='/assets/img/pgtr/pgtr4.png'>
+          <img src="/assets/img/pgtr/pgtr4.png" alt="PGTR"/>
         </a>
       </div>
     </div>
